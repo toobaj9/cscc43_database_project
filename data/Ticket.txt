@@ -1,0 +1,831 @@
+1	85.0	active	1	3	Orchestra
+2	85.0	active	1	3	Orchestra
+3	85.0	active	1	3	Orchestra
+4	85.0	active	1	3	Orchestra
+5	85.0	active	2	3	Orchestra
+6	85.0	active	2	3	Orchestra
+7	85.0	active	2	3	Orchestra
+8	85.0	active	2	3	Orchestra
+9	85.0	active	3	3	Orchestra
+10	85.0	active	3	3	Orchestra
+11	85.0	active	3	3	Orchestra
+12	85.0	active	3	3	Orchestra
+13	85.0	active	4	3	Orchestra
+14	85.0	active	4	3	Orchestra
+15	85.0	active	4	3	Orchestra
+16	85.0	active	4	3	Orchestra
+17	85.0	active	5	3	Orchestra
+18	85.0	active	5	3	Orchestra
+19	85.0	active	5	3	Orchestra
+20	85.0	active	5	3	Orchestra
+21	85.0	active	6	3	Orchestra
+22	85.0	active	6	3	Orchestra
+23	85.0	active	6	3	Orchestra
+24	85.0	active	6	3	Orchestra
+25	85.0	active	7	3	Orchestra
+26	85.0	active	7	3	Orchestra
+27	85.0	active	7	3	Orchestra
+28	85.0	active	7	3	Orchestra
+29	85.0	active	8	3	Orchestra
+30	85.0	active	8	3	Orchestra
+31	85.0	active	8	3	Orchestra
+32	85.0	active	8	3	Orchestra
+33	85.0	active	9	3	Orchestra
+34	85.0	active	9	3	Orchestra
+35	85.0	active	9	3	Orchestra
+36	85.0	active	9	3	Orchestra
+37	85.0	active	10	3	Orchestra
+38	85.0	active	10	3	Orchestra
+39	85.0	active	10	3	Orchestra
+40	85.0	active	10	3	Orchestra
+41	50	active	11	3	Balcony
+42	50	active	11	3	Balcony
+43	50	active	11	3	Balcony
+44	50	active	11	3	Balcony
+45	50	active	12	3	Balcony
+46	50	active	12	3	Balcony
+47	50	active	12	3	Balcony
+48	50	active	12	3	Balcony
+49	50	active	13	3	Balcony
+50	50	active	13	3	Balcony
+51	50	active	13	3	Balcony
+52	50	active	13	3	Balcony
+53	50	active	14	3	Balcony
+54	50	active	14	3	Balcony
+55	50	active	14	3	Balcony
+56	50	active	14	3	Balcony
+57	50	active	15	3	Balcony
+58	50	active	15	3	Balcony
+59	50	active	15	3	Balcony
+60	50	active	15	3	Balcony
+61	50	active	16	3	Balcony
+62	50	active	16	3	Balcony
+63	50	active	16	3	Balcony
+64	50	active	16	3	Balcony
+65	40.0	active	17	3	Atrium
+66	40.0	active	17	3	Atrium
+67	40.0	active	17	3	Atrium
+68	40.0	active	17	3	Atrium
+69	40.0	active	18	3	Atrium
+70	40.0	active	18	3	Atrium
+71	40.0	active	18	3	Atrium
+72	40.0	active	18	3	Atrium
+73	40.0	active	19	3	Atrium
+74	40.0	active	19	3	Atrium
+75	40.0	active	19	3	Atrium
+76	40.0	active	19	3	Atrium
+77	40.0	active	20	3	Atrium
+78	40.0	active	20	3	Atrium
+79	40.0	active	20	3	Atrium
+80	40.0	active	20	3	Atrium
+81	40.0	active	21	3	Atrium
+82	40.0	active	21	3	Atrium
+83	40.0	active	21	3	Atrium
+84	40.0	active	21	3	Atrium
+85	40.0	active	22	3	Atrium
+86	40.0	active	22	3	Atrium
+87	40.0	active	22	3	Atrium
+88	40.0	active	22	3	Atrium
+89	40.0	active	23	3	Atrium
+90	40.0	active	23	3	Atrium
+91	40.0	active	23	3	Atrium
+92	40.0	active	23	3	Atrium
+93	40.0	active	24	3	Atrium
+94	40.0	active	24	3	Atrium
+95	40.0	active	24	3	Atrium
+96	40.0	active	24	3	Atrium
+97	40.0	active	25	3	Atrium
+98	40.0	active	25	3	Atrium
+99	40.0	active	25	3	Atrium
+100	85.0	active	26	3	Orchestra
+101	85.0	active	26	3	Orchestra
+102	85.0	active	26	3	Orchestra
+103	85.0	active	26	3	Orchestra
+104	50	active	27	3	Balcony
+105	50	active	27	3	Balcony
+106	50	active	27	3	Balcony
+107	40.0	active	28	3	Atrium
+108	40.0	active	28	3	Atrium
+109	40.0	active	28	3	Atrium
+110	145.0	refunded	29	1	Orchestra
+111	145.0	refunded	29	1	Orchestra
+112	145.0	refunded	29	1	Orchestra
+113	145.0	active	29	1	Orchestra
+114	145.0	active	30	1	Orchestra
+115	145.0	active	30	1	Orchestra
+116	145.0	active	30	1	Orchestra
+117	145.0	active	30	1	Orchestra
+118	145.0	active	31	1	Orchestra
+119	145.0	active	31	1	Orchestra
+120	145.0	active	31	1	Orchestra
+121	145.0	active	31	1	Orchestra
+122	145.0	active	32	1	Orchestra
+123	145.0	active	32	1	Orchestra
+124	82.0	active	33	1	Balcony
+125	82.0	active	33	1	Balcony
+126	82.0	active	33	1	Balcony
+127	82.0	active	33	1	Balcony
+128	60.0	active	34	1	Lawn
+129	60.0	active	34	1	Lawn
+130	60.0	active	34	1	Lawn
+131	60.0	active	34	1	Lawn
+132	60.0	active	34	1	Lawn
+133	60.0	active	34	1	Lawn
+134	60.0	active	34	1	Lawn
+135	60.0	active	34	1	Lawn
+136	86.7	cancelled	35	2	Main Floor
+137	86.7	cancelled	35	2	Main Floor
+138	86.7	cancelled	35	2	Main Floor
+139	86.7	active	35	2	Main Floor
+140	40.8	active	36	2	Terrace
+141	40.8	active	36	2	Terrace
+142	40.8	active	36	2	Terrace
+143	40.8	active	36	2	Terrace
+144	40.8	active	36	2	Terrace
+145	181.9	active	37	6	Orchestra
+146	181.9	active	37	6	Orchestra
+147	181.9	active	37	6	Orchestra
+148	181.9	active	37	6	Orchestra
+149	145.0	active	38	1	Orchestra
+150	145.0	active	38	1	Orchestra
+151	86.7	active	39	2	Main Floor
+152	86.7	active	39	2	Main Floor
+153	117.3	active	40	5	Parterre
+154	117.3	active	40	5	Parterre
+155	119.0	active	41	4	Main Floor
+156	119.0	active	41	4	Main Floor
+157	145.0	active	42	1	Orchestra
+158	145.0	active	42	1	Orchestra
+159	86.7	active	43	2	Main Floor
+160	86.7	active	43	2	Main Floor
+161	50	active	44	3	Balcony
+162	50	active	44	3	Balcony
+163	50	active	44	3	Balcony
+164	122.4	active	45	5	Parterre
+165	122.4	active	45	5	Parterre
+166	122.4	active	45	5	Parterre
+167	122.4	active	45	5	Parterre
+168	50	active	46	3	Balcony
+169	50	active	46	3	Balcony
+170	136.0	active	47	3	Orchestra
+171	136.0	active	47	3	Orchestra
+172	136.0	active	47	3	Orchestra
+173	136.0	active	47	3	Orchestra
+174	55.2	active	48	5	Courtyard
+175	55.2	active	48	5	Courtyard
+176	55.2	active	48	5	Courtyard
+177	55.2	active	48	5	Courtyard
+178	48.0	active	49	2	Terrace
+179	48.0	active	49	2	Terrace
+180	48.0	active	49	2	Terrace
+181	137.7	active	50	2	Main Floor
+182	137.7	active	50	2	Main Floor
+183	87	active	51	8	Gallery
+184	87	active	51	8	Gallery
+185	153.0	active	52	8	Main Floor
+186	153.0	active	52	8	Main Floor
+187	153.0	active	52	8	Main Floor
+188	81	active	53	2	Mezzanine
+189	81	active	53	2	Mezzanine
+190	66.4	active	54	3	Atrium
+191	66.4	active	54	3	Atrium
+192	66.4	active	54	3	Atrium
+193	100.3	active	55	3	Orchestra
+194	100.3	active	55	3	Orchestra
+195	100.3	active	55	3	Orchestra
+196	100.3	active	55	3	Orchestra
+197	124.1	active	56	1	Balcony
+198	124.1	active	56	1	Balcony
+199	64.0	active	57	6	Plaza
+200	64.0	active	57	6	Plaza
+201	64.0	active	57	6	Plaza
+202	96.9	active	58	2	Main Floor
+203	149.6	active	59	4	Main Floor
+204	149.6	active	59	4	Main Floor
+205	149.6	active	59	4	Main Floor
+206	149.6	active	59	4	Main Floor
+207	91.8	active	60	8	Main Floor
+208	91.8	active	60	8	Main Floor
+209	149.6	active	61	4	Main Floor
+210	149.6	active	61	4	Main Floor
+211	40.0	active	62	3	Atrium
+212	40.0	active	62	3	Atrium
+213	40.0	active	62	3	Atrium
+214	56.0	active	63	4	Pavilion
+215	56.0	active	63	4	Pavilion
+216	56.0	active	63	4	Pavilion
+217	56	active	64	3	Balcony
+218	56	active	64	3	Balcony
+219	86.7	active	65	5	Parterre
+220	139.4	active	66	7	Floor
+221	139.4	active	66	7	Floor
+222	48	active	67	5	Balcon
+223	85.0	active	68	3	Orchestra
+224	85.0	active	68	3	Orchestra
+225	85.0	active	68	3	Orchestra
+226	51	active	69	5	Balcon
+227	144.5	active	70	7	Floor
+228	144.5	active	70	7	Floor
+229	144.5	active	70	7	Floor
+230	91.8	active	71	8	Main Floor
+231	91.8	active	71	8	Main Floor
+232	91.8	active	71	8	Main Floor
+233	91.8	active	71	8	Main Floor
+234	77	active	72	6	Balcony
+235	77	active	72	6	Balcony
+236	77	active	72	6	Balcony
+237	83.3	active	73	1	Balcony
+238	83.3	active	73	1	Balcony
+239	83.3	active	73	1	Balcony
+240	83.3	active	73	1	Balcony
+241	102.0	active	74	2	Main Floor
+242	102.0	active	74	2	Main Floor
+243	102.0	active	74	2	Main Floor
+244	79	active	75	1	Orchestra
+245	79	active	75	1	Orchestra
+246	79	active	75	1	Orchestra
+247	79	active	75	1	Orchestra
+248	137.7	active	76	2	Main Floor
+249	137.7	active	76	2	Main Floor
+250	146.2	active	77	3	Orchestra
+251	146.2	active	77	3	Orchestra
+252	146.2	active	77	3	Orchestra
+253	51	active	78	2	Mezzanine
+254	51	active	78	2	Mezzanine
+255	90	active	79	8	Gallery
+256	90	active	79	8	Gallery
+257	90	active	79	8	Gallery
+258	41.6	active	80	1	Lawn
+259	60.0	active	81	1	Lawn
+260	60.0	active	81	1	Lawn
+261	51	active	82	5	Balcon
+262	51	active	82	5	Balcon
+263	147.9	active	83	2	Main Floor
+264	147.9	active	83	2	Main Floor
+265	49	active	84	1	Orchestra
+266	49	active	84	1	Orchestra
+267	144.5	active	85	7	Floor
+268	144.5	active	85	7	Floor
+269	144.5	active	85	7	Floor
+270	76.8	active	86	5	Courtyard
+271	76.8	active	86	5	Courtyard
+272	76.8	active	86	5	Courtyard
+273	90.1	active	87	6	Orchestra
+274	90.1	active	87	6	Orchestra
+275	90.1	active	87	6	Orchestra
+276	90.1	active	87	6	Orchestra
+277	87	active	88	2	Mezzanine
+278	87	active	88	2	Mezzanine
+279	40	active	89	1	Orchestra
+280	40	active	89	1	Orchestra
+281	40	active	89	1	Orchestra
+282	40	active	89	1	Orchestra
+283	77	active	90	6	Balcony
+284	77	active	90	6	Balcony
+285	77	active	90	6	Balcony
+286	77	active	90	6	Balcony
+287	85	active	91	7	Upper Bowl
+288	149.6	active	92	4	Main Floor
+289	149.6	active	92	4	Main Floor
+290	90	active	93	8	Gallery
+291	90	active	93	8	Gallery
+292	90	active	93	8	Gallery
+293	90	active	93	8	Gallery
+294	68.0	active	94	1	Balcony
+295	68.0	active	94	1	Balcony
+296	40.0	active	95	3	Atrium
+297	40.0	active	95	3	Atrium
+298	40.0	active	95	3	Atrium
+299	85.0	active	96	3	Orchestra
+300	85.0	active	96	3	Orchestra
+301	86.7	active	97	2	Main Floor
+302	163.2	active	98	5	Parterre
+303	163.2	active	98	5	Parterre
+304	64.8	active	99	2	Terrace
+305	49	active	100	1	Orchestra
+306	103.7	active	101	7	Floor
+307	103.7	active	101	7	Floor
+308	103.7	active	101	7	Floor
+309	60.8	active	102	1	Lawn
+310	60.8	active	102	1	Lawn
+311	60.8	active	102	1	Lawn
+312	84	active	103	8	Gallery
+313	84	active	103	8	Gallery
+314	84	active	103	8	Gallery
+315	79	active	104	7	Upper Bowl
+316	79	active	104	7	Upper Bowl
+317	122.4	active	105	5	Parterre
+318	122.4	active	105	5	Parterre
+319	122.4	active	105	5	Parterre
+320	93	active	106	5	Balcon
+321	40.0	active	107	3	Atrium
+322	40.0	active	107	3	Atrium
+323	40.0	active	107	3	Atrium
+324	40.0	active	107	3	Atrium
+325	85	active	108	7	Upper Bowl
+326	85	active	108	7	Upper Bowl
+327	85	active	108	7	Upper Bowl
+328	86.7	active	109	5	Parterre
+329	86.7	active	109	5	Parterre
+330	158.1	active	110	5	Parterre
+331	87	active	111	8	Gallery
+332	87	active	111	8	Gallery
+333	87	active	111	8	Gallery
+334	40.0	active	112	3	Atrium
+335	40.0	active	112	3	Atrium
+336	40.0	active	112	3	Atrium
+337	40.0	active	112	3	Atrium
+338	55	active	113	1	Orchestra
+339	55	active	113	1	Orchestra
+340	55	active	113	1	Orchestra
+341	55	active	113	1	Orchestra
+342	136.0	active	114	3	Orchestra
+343	50	active	115	3	Balcony
+344	50	active	115	3	Balcony
+345	56	active	116	3	Balcony
+346	56	active	116	3	Balcony
+347	146.2	active	117	3	Orchestra
+348	146.2	active	117	3	Orchestra
+349	134.3	active	118	1	Balcony
+350	134.3	active	118	1	Balcony
+351	134.3	active	118	1	Balcony
+352	61.6	active	119	6	Plaza
+353	61.6	active	119	6	Plaza
+354	44.8	active	120	3	Atrium
+355	44.8	active	120	3	Atrium
+356	60	active	121	2	Mezzanine
+357	60	active	121	2	Mezzanine
+358	60	active	121	2	Mezzanine
+359	69	active	122	5	Balcon
+360	69	active	122	5	Balcon
+361	69	active	122	5	Balcon
+362	63	active	123	8	Gallery
+363	63	active	123	8	Gallery
+364	63	active	123	8	Gallery
+365	75	active	124	5	Balcon
+366	75	active	124	5	Balcon
+367	75	active	124	5	Balcon
+368	75	active	124	5	Balcon
+369	96.9	active	125	2	Main Floor
+370	63	active	126	8	Gallery
+371	63	active	126	8	Gallery
+372	63	active	126	8	Gallery
+373	63	active	126	8	Gallery
+374	72	active	127	5	Balcon
+375	72	active	127	5	Balcon
+376	72	active	127	5	Balcon
+377	49	active	128	1	Orchestra
+378	49	active	128	1	Orchestra
+379	49	active	128	1	Orchestra
+380	49	active	128	1	Orchestra
+381	39.2	active	129	1	Lawn
+382	39.2	active	129	1	Lawn
+383	145.0	active	130	1	Orchestra
+384	145.0	active	130	1	Orchestra
+385	124.1	active	131	1	Balcony
+386	124.1	active	131	1	Balcony
+387	93	active	132	5	Balcon
+388	93	active	132	5	Balcon
+389	129.2	active	133	1	Balcony
+390	129.2	active	133	1	Balcony
+391	129.2	active	133	1	Balcony
+392	50	active	134	3	Balcony
+393	50	active	134	3	Balcony
+394	50	active	134	3	Balcony
+395	85.0	active	135	3	Orchestra
+396	85.0	active	135	3	Orchestra
+397	85.0	active	135	3	Orchestra
+398	50	active	136	3	Balcony
+399	50	active	136	3	Balcony
+400	50	active	136	3	Balcony
+401	45.6	active	137	2	Terrace
+402	45.6	active	137	2	Terrace
+403	45.6	active	137	2	Terrace
+404	45.6	active	137	2	Terrace
+405	72.0	active	138	8	Promenade
+406	72.0	active	138	8	Promenade
+407	72.0	active	138	8	Promenade
+408	95.2	active	139	3	Orchestra
+409	95.2	active	139	3	Orchestra
+410	95.2	active	139	3	Orchestra
+411	95.2	active	139	3	Orchestra
+412	51	active	140	5	Balcon
+413	51	active	140	5	Balcon
+414	51	active	140	5	Balcon
+415	51	active	140	5	Balcon
+416	84	active	141	8	Gallery
+417	84	active	141	8	Gallery
+418	84	active	141	8	Gallery
+419	46	active	142	4	Upper Level
+420	46	active	142	4	Upper Level
+421	52	active	143	1	Orchestra
+422	52	active	143	1	Orchestra
+423	52	active	143	1	Orchestra
+424	52	active	143	1	Orchestra
+425	159.8	active	144	4	Main Floor
+426	159.8	active	144	4	Main Floor
+427	181.9	active	145	6	Orchestra
+428	181.9	active	145	6	Orchestra
+429	63	active	146	8	Gallery
+430	63	active	146	8	Gallery
+431	154.7	active	147	4	Main Floor
+432	154.7	active	147	4	Main Floor
+433	154.7	active	147	4	Main Floor
+434	154.7	active	147	4	Main Floor
+435	181.9	active	148	6	Orchestra
+436	90	active	149	8	Gallery
+437	90	active	149	8	Gallery
+438	90	active	149	8	Gallery
+439	57.6	active	150	5	Courtyard
+440	40.0	active	151	3	Atrium
+441	129.2	active	152	1	Balcony
+442	129.2	active	152	1	Balcony
+443	129.2	active	152	1	Balcony
+444	44.0	active	153	1	Lawn
+445	44.0	active	153	1	Lawn
+446	44.0	active	153	1	Lawn
+447	142.8	active	154	2	Main Floor
+448	142.8	active	154	2	Main Floor
+449	142.8	active	154	2	Main Floor
+450	69.6	active	155	2	Terrace
+451	69.6	active	155	2	Terrace
+452	69.6	active	155	2	Terrace
+453	50	active	156	3	Balcony
+454	50	active	156	3	Balcony
+455	67.2	active	157	2	Terrace
+456	67.2	active	157	2	Terrace
+457	67.2	active	157	2	Terrace
+458	67.2	active	157	2	Terrace
+459	56.0	active	158	4	Pavilion
+460	78.2	active	159	4	Main Floor
+461	78.2	active	159	4	Main Floor
+462	78.2	active	159	4	Main Floor
+463	66	active	160	8	Gallery
+464	66	active	160	8	Gallery
+465	86.7	active	161	2	Main Floor
+466	61	active	162	7	Upper Bowl
+467	61	active	162	7	Upper Bowl
+468	75	active	163	5	Balcon
+469	75	active	163	5	Balcon
+470	75	active	163	5	Balcon
+471	88.4	active	164	1	Balcony
+472	88.4	active	164	1	Balcony
+473	141.1	active	165	3	Orchestra
+474	141.1	active	165	3	Orchestra
+475	141.1	active	165	3	Orchestra
+476	78.2	active	166	4	Main Floor
+477	130.9	active	167	6	Orchestra
+478	159.8	active	168	4	Main Floor
+479	159.8	active	168	4	Main Floor
+480	159.8	active	168	4	Main Floor
+481	139.4	active	169	7	Floor
+482	139.4	active	169	7	Floor
+483	139.4	active	169	7	Floor
+484	60.0	active	170	5	Courtyard
+485	88	active	171	4	Upper Level
+486	88	active	171	4	Upper Level
+487	72	active	172	5	Balcon
+488	72	active	172	5	Balcon
+489	72	active	172	5	Balcon
+490	70.4	active	173	4	Pavilion
+491	85.0	active	174	3	Orchestra
+492	85.0	active	174	3	Orchestra
+493	85.0	active	174	3	Orchestra
+494	158.1	active	175	5	Parterre
+495	158.1	active	175	5	Parterre
+496	158.1	active	175	5	Parterre
+497	158.1	active	175	5	Parterre
+498	50	active	176	3	Balcony
+499	50	active	176	3	Balcony
+500	122.4	active	177	5	Parterre
+501	122.4	active	177	5	Parterre
+502	72.0	active	178	8	Promenade
+503	72.0	active	178	8	Promenade
+504	41.6	active	179	7	Concourse
+505	41.6	active	179	7	Concourse
+506	41.6	active	179	7	Concourse
+507	129.2	active	180	1	Balcony
+508	129.2	active	180	1	Balcony
+509	129.2	active	180	1	Balcony
+510	90.1	active	181	6	Orchestra
+511	86.7	active	182	2	Main Floor
+512	86.7	active	182	2	Main Floor
+513	60	active	183	2	Mezzanine
+514	60	active	183	2	Mezzanine
+515	60	active	183	2	Mezzanine
+516	88.4	active	184	7	Floor
+517	83	active	185	3	Balcony
+518	66.4	active	186	3	Atrium
+519	66.4	active	186	3	Atrium
+520	134.3	active	187	1	Balcony
+521	134.3	active	187	1	Balcony
+522	40.0	active	188	3	Atrium
+523	40.0	active	188	3	Atrium
+524	40.0	active	188	3	Atrium
+525	129.2	active	189	1	Balcony
+526	129.2	active	189	1	Balcony
+527	129.2	active	189	1	Balcony
+528	129.2	active	189	1	Balcony
+529	51	active	190	5	Balcon
+530	51	active	190	5	Balcon
+531	51	active	190	5	Balcon
+532	85.0	active	191	3	Orchestra
+533	85.0	active	191	3	Orchestra
+534	145.0	active	192	1	Orchestra
+535	145.0	active	192	1	Orchestra
+536	145.0	active	192	1	Orchestra
+537	63	active	193	8	Gallery
+538	63	active	193	8	Gallery
+539	63	active	193	8	Gallery
+540	85.6	active	194	6	Plaza
+541	85.6	active	194	6	Plaza
+542	85.6	active	194	6	Plaza
+543	63.2	active	195	1	Lawn
+544	63.2	active	195	1	Lawn
+545	44.8	active	196	3	Atrium
+546	44.8	active	196	3	Atrium
+547	44.8	active	196	3	Atrium
+548	136.0	active	197	6	Orchestra
+549	136.0	active	197	6	Orchestra
+550	136.0	active	197	6	Orchestra
+551	136.0	active	197	6	Orchestra
+552	60.0	active	198	1	Lawn
+553	60.0	active	198	1	Lawn
+554	60.0	active	198	1	Lawn
+555	83	active	199	3	Balcony
+556	83	active	199	3	Balcony
+557	83	active	199	3	Balcony
+558	119.0	active	200	4	Main Floor
+559	119.0	active	200	4	Main Floor
+560	119.0	active	200	4	Main Floor
+561	119.0	active	200	4	Main Floor
+562	64.0	active	201	3	Atrium
+563	64.0	active	201	3	Atrium
+564	64.0	active	201	3	Atrium
+565	50	active	202	3	Balcony
+566	95.2	active	203	3	Orchestra
+567	95.2	active	203	3	Orchestra
+568	95.2	active	203	3	Orchestra
+569	159.8	active	204	4	Main Floor
+570	159.8	active	204	4	Main Floor
+571	136.0	active	205	6	Orchestra
+572	136.0	active	205	6	Orchestra
+573	136.0	active	205	6	Orchestra
+574	136.0	active	205	6	Orchestra
+575	44.8	active	206	3	Atrium
+576	44.8	active	206	3	Atrium
+577	124.1	active	207	1	Balcony
+578	124.1	active	207	1	Balcony
+579	124.1	active	207	1	Balcony
+580	124.1	active	207	1	Balcony
+581	50	active	208	3	Balcony
+582	57.6	active	209	5	Courtyard
+583	103.7	active	210	7	Floor
+584	103.7	active	210	7	Floor
+585	69.6	active	211	2	Terrace
+586	79	active	212	7	Upper Bowl
+587	79	active	212	7	Upper Bowl
+588	79	active	212	7	Upper Bowl
+589	88.4	active	213	1	Balcony
+590	88.4	active	213	1	Balcony
+591	40	active	214	1	Orchestra
+592	78.2	active	215	4	Main Floor
+593	78.2	active	215	4	Main Floor
+594	78.2	active	215	4	Main Floor
+595	158.1	active	216	5	Parterre
+596	158.1	active	216	5	Parterre
+597	158.1	active	216	5	Parterre
+598	50	active	217	3	Balcony
+599	50	active	217	3	Balcony
+600	50	active	217	3	Balcony
+601	81.6	active	218	5	Parterre
+602	81.6	active	218	5	Parterre
+603	81.6	active	218	5	Parterre
+604	105.4	active	219	3	Orchestra
+605	105.4	active	219	3	Orchestra
+606	105.4	active	219	3	Orchestra
+607	84	active	220	2	Mezzanine
+608	84	active	220	2	Mezzanine
+609	84	active	220	2	Mezzanine
+610	147.9	active	221	2	Main Floor
+611	147.9	active	221	2	Main Floor
+612	61	active	222	7	Upper Bowl
+613	61	active	222	7	Upper Bowl
+614	61	active	222	7	Upper Bowl
+615	40.0	active	223	3	Atrium
+616	40.0	active	223	3	Atrium
+617	50	active	224	3	Balcony
+618	50	active	224	3	Balcony
+619	50	active	224	3	Balcony
+620	40.0	active	225	3	Atrium
+621	40.0	active	225	3	Atrium
+622	40.0	active	225	3	Atrium
+623	74	active	226	6	Balcony
+624	74	active	226	6	Balcony
+625	142.8	active	227	2	Main Floor
+626	142.8	active	227	2	Main Floor
+627	44.8	active	228	3	Atrium
+628	44.8	active	228	3	Atrium
+629	50	active	229	6	Balcony
+630	50	active	229	6	Balcony
+631	117.3	active	230	5	Parterre
+632	147.9	active	231	2	Main Floor
+633	147.9	active	231	2	Main Floor
+634	147.9	active	231	2	Main Floor
+635	85.0	active	232	6	Orchestra
+636	85.0	active	232	6	Orchestra
+637	112.2	active	233	8	Main Floor
+638	103.7	active	234	7	Floor
+639	50	active	235	3	Balcony
+640	50	active	235	3	Balcony
+641	68.0	active	236	1	Balcony
+642	68.0	active	236	1	Balcony
+643	68.0	active	236	1	Balcony
+644	51	active	237	2	Mezzanine
+645	51	active	237	2	Mezzanine
+646	51	active	237	2	Mezzanine
+647	51	active	237	2	Mezzanine
+648	88.4	active	238	1	Balcony
+649	88.4	active	238	1	Balcony
+650	88.4	active	238	1	Balcony
+651	88.4	active	238	1	Balcony
+652	48.0	active	239	2	Terrace
+653	48.0	active	239	2	Terrace
+654	59.2	active	240	6	Plaza
+655	59.2	active	240	6	Plaza
+656	69	active	241	5	Balcon
+657	69	active	241	5	Balcon
+658	50	active	242	3	Balcony
+659	50	active	242	3	Balcony
+660	48	active	243	5	Balcon
+661	85.0	active	244	3	Orchestra
+662	85.0	active	244	3	Orchestra
+663	85.0	active	244	3	Orchestra
+664	85.0	active	244	3	Orchestra
+665	145.0	active	245	1	Orchestra
+666	145.0	active	245	1	Orchestra
+667	145.0	active	245	1	Orchestra
+668	145.0	active	245	1	Orchestra
+669	52	active	246	7	Upper Bowl
+670	52	active	246	7	Upper Bowl
+671	52	active	246	7	Upper Bowl
+672	82	active	247	7	Upper Bowl
+673	82	active	247	7	Upper Bowl
+674	82	active	247	7	Upper Bowl
+675	73	active	248	1	Orchestra
+676	73	active	248	1	Orchestra
+677	73	active	248	1	Orchestra
+678	83.3	active	249	1	Balcony
+679	159.8	active	250	4	Main Floor
+680	159.8	active	250	4	Main Floor
+681	159.8	active	250	4	Main Floor
+682	40.8	active	251	5	Courtyard
+683	40.8	active	251	5	Courtyard
+684	69	active	252	5	Balcon
+685	69	active	252	5	Balcon
+686	69	active	252	5	Balcon
+687	69	active	252	5	Balcon
+688	50	active	253	3	Balcony
+689	50	active	253	3	Balcony
+690	50	active	253	3	Balcony
+691	159.8	active	254	4	Main Floor
+692	159.8	active	254	4	Main Floor
+693	50	active	255	3	Balcony
+694	50	active	255	3	Balcony
+695	50	active	255	3	Balcony
+696	147.9	active	256	8	Main Floor
+697	147.9	active	256	8	Main Floor
+698	147.9	active	256	8	Main Floor
+699	40.0	active	257	3	Atrium
+700	40.0	active	257	3	Atrium
+701	83	active	258	3	Balcony
+702	83	active	258	3	Balcony
+703	91.8	active	259	8	Main Floor
+704	91.8	active	259	8	Main Floor
+705	58.4	active	260	1	Lawn
+706	58.4	active	260	1	Lawn
+707	91	active	261	4	Upper Level
+708	91	active	261	4	Upper Level
+709	91	active	261	4	Upper Level
+710	91	active	261	4	Upper Level
+711	146.2	active	262	3	Orchestra
+712	40.8	active	263	2	Terrace
+713	40.8	active	263	2	Terrace
+714	129.2	active	264	1	Balcony
+715	129.2	active	264	1	Balcony
+716	129.2	active	264	1	Balcony
+717	39.2	active	265	1	Lawn
+718	39.2	active	265	1	Lawn
+719	181.9	active	266	6	Orchestra
+720	181.9	active	266	6	Orchestra
+721	181.9	active	266	6	Orchestra
+722	52	active	267	1	Orchestra
+723	52	active	267	1	Orchestra
+724	52	active	267	1	Orchestra
+725	69.6	active	268	2	Terrace
+726	69.6	active	268	2	Terrace
+727	69.6	active	268	2	Terrace
+728	59.2	active	269	6	Plaza
+729	59.2	active	269	6	Plaza
+730	59.2	active	269	6	Plaza
+731	125.8	active	270	6	Orchestra
+732	125.8	active	270	6	Orchestra
+733	68.0	active	271	7	Concourse
+734	68.0	active	271	7	Concourse
+735	68.0	active	271	7	Concourse
+736	85.0	active	272	3	Orchestra
+737	85.0	active	272	3	Orchestra
+738	85.0	active	272	3	Orchestra
+739	85.0	active	272	3	Orchestra
+740	53	active	273	6	Balcony
+741	141.1	active	274	3	Orchestra
+742	141.1	active	274	3	Orchestra
+743	79	active	275	1	Orchestra
+744	79	active	275	1	Orchestra
+745	83.3	active	276	1	Balcony
+746	83.3	active	276	1	Balcony
+747	83.3	active	276	1	Balcony
+748	51	active	277	5	Balcon
+749	51	active	277	5	Balcon
+750	67.2	active	278	2	Terrace
+751	67.2	active	278	2	Terrace
+752	40.0	active	279	3	Atrium
+753	52	active	280	1	Orchestra
+754	52	active	280	1	Orchestra
+755	52	active	280	1	Orchestra
+756	77	active	281	6	Balcony
+757	77	active	281	6	Balcony
+758	88.4	active	282	1	Balcony
+759	88.4	active	282	1	Balcony
+760	88.4	active	282	1	Balcony
+761	50	active	283	3	Balcony
+762	50	active	283	3	Balcony
+763	50	active	283	3	Balcony
+764	79	active	284	1	Orchestra
+765	79	active	284	1	Orchestra
+766	79	active	284	1	Orchestra
+767	85.0	active	285	3	Orchestra
+768	85.0	active	285	3	Orchestra
+769	85.0	active	285	3	Orchestra
+770	85.0	active	285	3	Orchestra
+771	93.5	active	286	1	Balcony
+772	93.5	active	286	1	Balcony
+773	52	active	287	7	Upper Bowl
+774	52	active	287	7	Upper Bowl
+775	52	active	287	7	Upper Bowl
+776	93.5	active	288	1	Balcony
+777	93.5	active	288	1	Balcony
+778	93.5	active	288	1	Balcony
+779	48	active	289	5	Balcon
+780	48	active	289	5	Balcon
+781	48	active	289	5	Balcon
+782	83	active	290	3	Balcony
+783	83	active	290	3	Balcony
+784	72.8	active	291	4	Pavilion
+785	72.8	active	291	4	Pavilion
+786	72.8	active	291	4	Pavilion
+787	50	active	292	6	Balcony
+788	50	active	292	6	Balcony
+789	50	active	292	6	Balcony
+790	61.6	active	293	6	Plaza
+791	61.6	active	293	6	Plaza
+792	85.0	active	294	3	Orchestra
+793	103.7	active	295	7	Floor
+794	103.7	active	295	7	Floor
+795	103.7	active	295	7	Floor
+796	103.7	active	295	7	Floor
+797	85	active	296	7	Upper Bowl
+798	85	active	296	7	Upper Bowl
+799	96	active	297	5	Balcon
+800	96	active	297	5	Balcon
+801	77	active	298	6	Balcony
+802	77	active	298	6	Balcony
+803	77	active	298	6	Balcony
+804	147.9	active	299	8	Main Floor
+805	147.9	active	299	8	Main Floor
+806	50	active	300	3	Balcony
+807	78.2	active	301	4	Main Floor
+808	78.2	active	301	4	Main Floor
+809	78.2	active	301	4	Main Floor
+810	78.2	active	301	4	Main Floor
+811	119.0	active	302	4	Main Floor
+812	50	active	303	3	Balcony
+813	50	active	303	3	Balcony
+814	50	active	303	3	Balcony
+815	95.2	active	304	3	Orchestra
+816	95.2	active	304	3	Orchestra
+817	95.2	active	304	3	Orchestra
+818	95.2	active	304	3	Orchestra
+819	64.0	active	305	6	Plaza
+820	64.0	active	305	6	Plaza
+821	64.0	active	305	6	Plaza
+822	78.2	refunded	306	4	Main Floor
+823	78.2	refunded	306	4	Main Floor
+824	78.2	refunded	306	4	Main Floor
+825	36.8	refunded	307	4	Pavilion
+826	36.8	refunded	307	4	Pavilion
+827	119.0	refunded	308	7	Floor
+828	119.0	refunded	308	7	Floor
+829	119.0	refunded	308	7	Floor
+830	56.0	refunded	309	7	Concourse
+831	56.0	refunded	309	7	Concourse

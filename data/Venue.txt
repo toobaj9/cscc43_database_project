@@ -1,0 +1,8 @@
+1	Harbourfront Arena	43.6435	-79.3791	40 Bay Street	M5J 2X2	Toronto	Canada
+2	Downtown Concert Hall	43.6467	-79.3859	60 Simcoe Street	M5J 2H5	Toronto	Canada
+3	Queen Street Theatre	43.6508	-79.3902	250 Queen Street West	M5V 1Z7	Toronto	Canada
+4	Ottawa Civic Theatre	45.4215	-75.6972	100 Elgin Street	K1P 5K8	Ottawa	Canada
+5	Montreal Arts Centre	45.5088	-73.5878	175 Rue Sainte-Catherine	H2X 1Z8	Montreal	Canada
+6	Pacific Performance Hall	49.2827	-123.1207	800 Granville Street	V6Z 1K3	Vancouver	Canada
+7	Manhattan Events Hall	40.758	-73.9855	1500 Broadway	10036	New York	United States
+8	Chicago Lakeside Theatre	41.8781	-87.6298	200 North State Street	60601	Chicago	United States

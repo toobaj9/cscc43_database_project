@@ -1,0 +1,76 @@
+customer005@mytix.com	1	4	5	The venue staff were organized and helpful from entry to departure. The seating area was comfortable and the sightlines were better than expected.	2025-12-24 22:00:00
+customer090@mytix.com	1	5	3	The show was energetic and the supporting artists added real variety. The final set was the strongest part of the performance.	2025-12-25 22:00:00
+customer060@mytix.com	1	3	4	The production design was creative and the lighting supported the mood of each scene. The venue could improve the concession lines.	2025-12-26 22:00:00
+customer011@mytix.com	2	5	3	The show was energetic and the supporting artists added real variety. The final set was the strongest part of the performance.	2026-02-02 17:00:00
+customer012@mytix.com	2	3	4	The production design was creative and the lighting supported the mood of each scene. The venue could improve the concession lines.	2026-02-03 17:00:00
+customer013@mytix.com	2	4	5	The event was enjoyable and professionally managed. The audience atmosphere made the experience feel lively without becoming disruptive.	2026-02-04 17:00:00
+customer012@mytix.com	3	3	4	The production design was creative and the lighting supported the mood of each scene. The venue could improve the concession lines.	2026-02-02 22:00:00
+customer040@mytix.com	3	4	5	The event was enjoyable and professionally managed. The audience atmosphere made the experience feel lively without becoming disruptive.	2026-02-03 22:00:00
+customer071@mytix.com	3	5	3	The performers delivered a polished show with several memorable moments. The venue was easy to reach and the entrances were clearly marked.	2026-02-04 22:00:00
+customer013@mytix.com	4	4	5	The event was enjoyable and professionally managed. The audience atmosphere made the experience feel lively without becoming disruptive.	2026-02-22 17:00:00
+customer011@mytix.com	4	5	3	The performers delivered a polished show with several memorable moments. The venue was easy to reach and the entrances were clearly marked.	2026-02-23 17:00:00
+customer032@mytix.com	4	3	4	The performance had excellent pacing and the lead artist connected well with the audience. The sound balance was clear throughout the evening.	2026-02-24 17:00:00
+customer048@mytix.com	5	5	3	The performers delivered a polished show with several memorable moments. The venue was easy to reach and the entrances were clearly marked.	2026-03-14 22:00:00
+customer011@mytix.com	5	3	4	The performance had excellent pacing and the lead artist connected well with the audience. The sound balance was clear throughout the evening.	2026-03-15 22:00:00
+customer100@mytix.com	6	3	4	The performance had excellent pacing and the lead artist connected well with the audience. The sound balance was clear throughout the evening.	2026-04-03 17:00:00
+customer086@mytix.com	6	4	5	The venue staff were organized and helpful from entry to departure. The seating area was comfortable and the sightlines were better than expected.	2026-04-04 17:00:00
+customer089@mytix.com	6	5	3	The show was energetic and the supporting artists added real variety. The final set was the strongest part of the performance.	2026-04-05 17:00:00
+customer050@mytix.com	7	4	5	The venue staff were organized and helpful from entry to departure. The seating area was comfortable and the sightlines were better than expected.	2026-04-23 22:00:00
+customer014@mytix.com	7	5	3	The show was energetic and the supporting artists added real variety. The final set was the strongest part of the performance.	2026-04-24 22:00:00
+customer074@mytix.com	11	5	3	The performers delivered a polished show with several memorable moments. The venue was easy to reach and the entrances were clearly marked.	2025-11-24 23:00:00
+customer024@mytix.com	11	3	4	The performance had excellent pacing and the lead artist connected well with the audience. The sound balance was clear throughout the evening.	2025-11-25 23:00:00
+customer001@mytix.com	11	4	5	The venue staff were organized and helpful from entry to departure. The seating area was comfortable and the sightlines were better than expected.	2025-11-26 23:00:00
+customer031@mytix.com	12	3	4	The performance had excellent pacing and the lead artist connected well with the audience. The sound balance was clear throughout the evening.	2026-02-12 23:00:00
+customer004@mytix.com	12	4	5	The venue staff were organized and helpful from entry to departure. The seating area was comfortable and the sightlines were better than expected.	2026-02-13 23:00:00
+customer088@mytix.com	12	5	3	The show was energetic and the supporting artists added real variety. The final set was the strongest part of the performance.	2026-02-14 23:00:00
+customer049@mytix.com	13	4	5	The venue staff were organized and helpful from entry to departure. The seating area was comfortable and the sightlines were better than expected.	2026-05-03 23:00:00
+customer039@mytix.com	13	5	3	The show was energetic and the supporting artists added real variety. The final set was the strongest part of the performance.	2026-05-04 23:00:00
+customer034@mytix.com	13	3	4	The production design was creative and the lighting supported the mood of each scene. The venue could improve the concession lines.	2026-05-05 23:00:00
+customer001@mytix.com	17	5	3	The performers delivered a polished show with several memorable moments. The venue was easy to reach and the entrances were clearly marked.	2026-01-23 16:00:00
+customer006@mytix.com	17	3	4	The performance had excellent pacing and the lead artist connected well with the audience. The sound balance was clear throughout the evening.	2026-01-24 16:00:00
+customer060@mytix.com	17	4	5	The venue staff were organized and helpful from entry to departure. The seating area was comfortable and the sightlines were better than expected.	2026-01-25 16:00:00
+customer014@mytix.com	18	3	4	The performance had excellent pacing and the lead artist connected well with the audience. The sound balance was clear throughout the evening.	2026-03-04 19:00:00
+customer055@mytix.com	18	4	5	The venue staff were organized and helpful from entry to departure. The seating area was comfortable and the sightlines were better than expected.	2026-03-05 19:00:00
+customer036@mytix.com	18	5	3	The show was energetic and the supporting artists added real variety. The final set was the strongest part of the performance.	2026-03-06 19:00:00
+customer051@mytix.com	20	5	3	The show was energetic and the supporting artists added real variety. The final set was the strongest part of the performance.	2026-06-22 16:00:00
+customer018@mytix.com	20	3	4	The production design was creative and the lighting supported the mood of each scene. The venue could improve the concession lines.	2026-06-23 16:00:00
+customer078@mytix.com	20	4	5	The event was enjoyable and professionally managed. The audience atmosphere made the experience feel lively without becoming disruptive.	2026-06-24 16:00:00
+customer014@mytix.com	21	3	4	The production design was creative and the lighting supported the mood of each scene. The venue could improve the concession lines.	2026-07-07 19:00:00
+customer025@mytix.com	21	4	5	The event was enjoyable and professionally managed. The audience atmosphere made the experience feel lively without becoming disruptive.	2026-07-08 19:00:00
+customer042@mytix.com	21	5	3	The performers delivered a polished show with several memorable moments. The venue was easy to reach and the entrances were clearly marked.	2026-07-09 19:00:00
+customer097@mytix.com	22	4	5	The event was enjoyable and professionally managed. The audience atmosphere made the experience feel lively without becoming disruptive.	2026-07-17 23:00:00
+customer017@mytix.com	22	5	3	The performers delivered a polished show with several memorable moments. The venue was easy to reach and the entrances were clearly marked.	2026-07-18 23:00:00
+customer004@mytix.com	22	3	4	The performance had excellent pacing and the lead artist connected well with the audience. The sound balance was clear throughout the evening.	2026-07-19 23:00:00
+customer052@mytix.com	23	5	3	The performers delivered a polished show with several memorable moments. The venue was easy to reach and the entrances were clearly marked.	2026-07-27 16:00:00
+customer098@mytix.com	23	3	4	The performance had excellent pacing and the lead artist connected well with the audience. The sound balance was clear throughout the evening.	2026-07-28 16:00:00
+customer095@mytix.com	40	4	5	The event was enjoyable and professionally managed. The audience atmosphere made the experience feel lively without becoming disruptive.	2025-09-05 23:00:00
+customer069@mytix.com	40	5	3	The performers delivered a polished show with several memorable moments. The venue was easy to reach and the entrances were clearly marked.	2025-09-06 23:00:00
+customer076@mytix.com	41	5	3	The performers delivered a polished show with several memorable moments. The venue was easy to reach and the entrances were clearly marked.	2025-09-25 16:00:00
+customer004@mytix.com	41	3	4	The performance had excellent pacing and the lead artist connected well with the audience. The sound balance was clear throughout the evening.	2025-09-26 16:00:00
+customer010@mytix.com	41	4	5	The venue staff were organized and helpful from entry to departure. The seating area was comfortable and the sightlines were better than expected.	2025-09-27 16:00:00
+customer054@mytix.com	42	3	4	The performance had excellent pacing and the lead artist connected well with the audience. The sound balance was clear throughout the evening.	2025-10-15 19:00:00
+customer057@mytix.com	42	4	5	The venue staff were organized and helpful from entry to departure. The seating area was comfortable and the sightlines were better than expected.	2025-10-16 19:00:00
+customer034@mytix.com	42	5	3	The show was energetic and the supporting artists added real variety. The final set was the strongest part of the performance.	2025-10-17 19:00:00
+customer091@mytix.com	43	4	5	The venue staff were organized and helpful from entry to departure. The seating area was comfortable and the sightlines were better than expected.	2025-11-04 23:00:00
+customer002@mytix.com	43	5	3	The show was energetic and the supporting artists added real variety. The final set was the strongest part of the performance.	2025-11-05 23:00:00
+customer010@mytix.com	44	5	3	The show was energetic and the supporting artists added real variety. The final set was the strongest part of the performance.	2025-12-04 16:00:00
+customer076@mytix.com	44	3	4	The production design was creative and the lighting supported the mood of each scene. The venue could improve the concession lines.	2025-12-05 16:00:00
+customer014@mytix.com	44	4	5	The event was enjoyable and professionally managed. The audience atmosphere made the experience feel lively without becoming disruptive.	2025-12-06 16:00:00
+customer094@mytix.com	45	3	4	The production design was creative and the lighting supported the mood of each scene. The venue could improve the concession lines.	2026-01-03 19:00:00
+customer014@mytix.com	45	4	5	The event was enjoyable and professionally managed. The audience atmosphere made the experience feel lively without becoming disruptive.	2026-01-04 19:00:00
+customer084@mytix.com	45	5	3	The performers delivered a polished show with several memorable moments. The venue was easy to reach and the entrances were clearly marked.	2026-01-05 19:00:00
+customer052@mytix.com	46	4	5	The event was enjoyable and professionally managed. The audience atmosphere made the experience feel lively without becoming disruptive.	2026-01-23 23:00:00
+customer012@mytix.com	46	5	3	The performers delivered a polished show with several memorable moments. The venue was easy to reach and the entrances were clearly marked.	2026-01-24 23:00:00
+customer022@mytix.com	46	3	4	The performance had excellent pacing and the lead artist connected well with the audience. The sound balance was clear throughout the evening.	2026-01-25 23:00:00
+customer069@mytix.com	47	5	3	The performers delivered a polished show with several memorable moments. The venue was easy to reach and the entrances were clearly marked.	2026-03-04 16:00:00
+customer035@mytix.com	47	3	4	The performance had excellent pacing and the lead artist connected well with the audience. The sound balance was clear throughout the evening.	2026-03-05 16:00:00
+customer012@mytix.com	47	4	5	The venue staff were organized and helpful from entry to departure. The seating area was comfortable and the sightlines were better than expected.	2026-03-06 16:00:00
+customer042@mytix.com	48	3	4	The performance had excellent pacing and the lead artist connected well with the audience. The sound balance was clear throughout the evening.	2026-03-24 19:00:00
+customer090@mytix.com	48	4	5	The venue staff were organized and helpful from entry to departure. The seating area was comfortable and the sightlines were better than expected.	2026-03-25 19:00:00
+customer096@mytix.com	48	5	3	The show was energetic and the supporting artists added real variety. The final set was the strongest part of the performance.	2026-03-26 19:00:00
+customer024@mytix.com	49	4	5	The venue staff were organized and helpful from entry to departure. The seating area was comfortable and the sightlines were better than expected.	2026-04-13 23:00:00
+customer094@mytix.com	49	5	3	The show was energetic and the supporting artists added real variety. The final set was the strongest part of the performance.	2026-04-14 23:00:00
+customer054@mytix.com	49	3	4	The production design was creative and the lighting supported the mood of each scene. The venue could improve the concession lines.	2026-04-15 23:00:00
+customer004@mytix.com	50	5	3	The show was energetic and the supporting artists added real variety. The final set was the strongest part of the performance.	2026-05-23 16:00:00
+customer028@mytix.com	50	3	4	The production design was creative and the lighting supported the mood of each scene. The venue could improve the concession lines.	2026-05-24 16:00:00
+customer092@mytix.com	50	4	5	The event was enjoyable and professionally managed. The audience atmosphere made the experience feel lively without becoming disruptive.	2026-05-25 16:00:00

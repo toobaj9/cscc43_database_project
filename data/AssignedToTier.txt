@@ -1,0 +1,180 @@
+1	3	Orchestra	Premium
+1	3	Balcony	Standard
+1	3	Atrium	General
+2	3	Orchestra	Premium
+2	3	Balcony	Standard
+2	3	Atrium	General
+3	3	Orchestra	Premium
+3	3	Balcony	Standard
+3	3	Atrium	General
+4	3	Orchestra	Premium
+4	3	Balcony	Standard
+4	3	Atrium	General
+5	3	Orchestra	Premium
+5	3	Balcony	Standard
+5	3	Atrium	General
+6	3	Orchestra	Premium
+6	3	Balcony	Standard
+6	3	Atrium	General
+7	3	Orchestra	Premium
+7	3	Balcony	Standard
+7	3	Atrium	General
+8	4	Main Floor	Premium
+8	4	Upper Level	Standard
+8	4	Pavilion	General
+9	3	Orchestra	Premium
+9	3	Balcony	Standard
+9	3	Atrium	General
+10	3	Orchestra	Premium
+10	3	Balcony	Standard
+10	3	Atrium	General
+11	1	Orchestra	Standard
+11	1	Balcony	Premium
+11	1	Lawn	General
+12	4	Main Floor	Premium
+12	4	Upper Level	Standard
+12	4	Pavilion	General
+13	5	Parterre	Premium
+13	5	Balcon	Standard
+13	5	Courtyard	General
+14	6	Orchestra	Premium
+14	6	Balcony	Standard
+14	6	Plaza	General
+15	7	Floor	Premium
+15	7	Upper Bowl	Standard
+15	7	Concourse	General
+16	8	Main Floor	Premium
+16	8	Gallery	Standard
+16	8	Promenade	General
+17	5	Parterre	Premium
+17	5	Balcon	Standard
+17	5	Courtyard	General
+18	6	Orchestra	Premium
+18	6	Balcony	Standard
+18	6	Plaza	General
+19	7	Floor	Premium
+19	7	Upper Bowl	Standard
+19	7	Concourse	General
+20	7	Floor	Premium
+20	7	Upper Bowl	Standard
+20	7	Concourse	General
+21	8	Main Floor	Premium
+21	8	Gallery	Standard
+21	8	Promenade	General
+22	1	Orchestra	Standard
+22	1	Balcony	Premium
+22	1	Lawn	General
+23	8	Main Floor	Premium
+23	8	Gallery	Standard
+23	8	Promenade	General
+24	1	Orchestra	Standard
+24	1	Balcony	Premium
+24	1	Lawn	General
+25	3	Orchestra	Premium
+25	3	Balcony	Standard
+25	3	Atrium	General
+26	1	Orchestra	Standard
+26	1	Balcony	Premium
+26	1	Lawn	General
+27	3	Orchestra	Premium
+27	3	Balcony	Standard
+27	3	Atrium	General
+28	2	Main Floor	Premium
+28	2	Mezzanine	Standard
+28	2	Terrace	General
+29	3	Orchestra	Premium
+29	3	Balcony	Standard
+29	3	Atrium	General
+30	2	Main Floor	Premium
+30	2	Mezzanine	Standard
+30	2	Terrace	General
+31	1	Orchestra	Premium
+31	1	Balcony	Standard
+31	1	Lawn	General
+32	2	Main Floor	Premium
+32	2	Mezzanine	Standard
+32	2	Terrace	General
+33	6	Orchestra	Premium
+33	6	Balcony	Standard
+33	6	Plaza	General
+34	5	Parterre	Premium
+34	5	Balcon	Standard
+34	5	Courtyard	General
+35	4	Main Floor	Premium
+35	4	Upper Level	Standard
+35	4	Pavilion	General
+36	5	Parterre	Premium
+36	5	Balcon	Standard
+36	5	Courtyard	General
+37	6	Orchestra	Premium
+37	6	Balcony	Standard
+37	6	Plaza	General
+38	5	Parterre	Premium
+38	5	Balcon	Standard
+38	5	Courtyard	General
+39	6	Orchestra	Premium
+39	6	Balcony	Standard
+39	6	Plaza	General
+40	7	Floor	Premium
+40	7	Upper Bowl	Standard
+40	7	Concourse	General
+41	6	Orchestra	Premium
+41	6	Balcony	Standard
+41	6	Plaza	General
+42	7	Floor	Premium
+42	7	Upper Bowl	Standard
+42	7	Concourse	General
+43	8	Main Floor	Premium
+43	8	Gallery	Standard
+43	8	Promenade	General
+44	7	Floor	Premium
+44	7	Upper Bowl	Standard
+44	7	Concourse	General
+45	8	Main Floor	Premium
+45	8	Gallery	Standard
+45	8	Promenade	General
+46	1	Orchestra	Standard
+46	1	Balcony	Premium
+46	1	Lawn	General
+47	8	Main Floor	Premium
+47	8	Gallery	Standard
+47	8	Promenade	General
+48	1	Orchestra	Standard
+48	1	Balcony	Premium
+48	1	Lawn	General
+49	3	Orchestra	Premium
+49	3	Balcony	Standard
+49	3	Atrium	General
+50	1	Orchestra	Standard
+50	1	Balcony	Premium
+50	1	Lawn	General
+51	3	Orchestra	Premium
+51	3	Balcony	Standard
+51	3	Atrium	General
+52	2	Main Floor	Premium
+52	2	Mezzanine	Standard
+52	2	Terrace	General
+53	3	Orchestra	Premium
+53	3	Balcony	Standard
+53	3	Atrium	General
+54	2	Main Floor	Premium
+54	2	Mezzanine	Standard
+54	2	Terrace	General
+55	4	Main Floor	Premium
+55	4	Upper Level	Standard
+55	4	Pavilion	General
+56	2	Main Floor	Premium
+56	2	Mezzanine	Standard
+56	2	Terrace	General
+57	4	Main Floor	Premium
+57	4	Upper Level	Standard
+57	4	Pavilion	General
+58	5	Parterre	Premium
+58	5	Balcon	Standard
+58	5	Courtyard	General
+59	4	Main Floor	Premium
+59	4	Upper Level	Standard
+59	4	Pavilion	General
+60	5	Parterre	Premium
+60	5	Balcon	Standard
+60	5	Courtyard	General

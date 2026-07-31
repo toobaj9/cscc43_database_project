@@ -1,0 +1,14 @@
+1	customer041@mytix.com	2026-06-22 21:03:28	188.5
+2	customer042@mytix.com	2026-06-23 21:03:28	152.25
+3	customer043@mytix.com	2026-06-24 21:03:28	152.25
+8	customer046@mytix.com	2026-06-22 21:03:28	188.5
+9	customer047@mytix.com	2026-06-23 21:03:28	152.25
+10	customer048@mytix.com	2026-06-24 21:03:28	152.25
+15	customer061@mytix.com	2026-07-12 21:03:28	188.5
+16	customer062@mytix.com	2026-07-23 21:03:28	147.9
+19	customer073@mytix.com	2026-07-18 21:03:28	156.6
+22	customer076@mytix.com	2026-07-21 21:03:28	156.6
+25	customer079@mytix.com	2026-07-24 21:03:28	156.6
+28	customer082@mytix.com	2026-07-17 21:03:28	88.56
+31	customer085@mytix.com	2026-07-20 21:03:28	88.56
+34	customer088@mytix.com	2026-07-23 21:03:28	64.8

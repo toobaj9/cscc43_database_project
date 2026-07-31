@@ -1,0 +1,1261 @@
+1	Orchestra	A	1
+1	Orchestra	A	2
+1	Orchestra	A	3
+1	Orchestra	A	4
+1	Orchestra	A	5
+1	Orchestra	A	6
+1	Orchestra	A	7
+1	Orchestra	A	8
+1	Orchestra	A	9
+1	Orchestra	A	10
+1	Orchestra	A	11
+1	Orchestra	A	12
+1	Orchestra	B	1
+1	Orchestra	B	2
+1	Orchestra	B	3
+1	Orchestra	B	4
+1	Orchestra	B	5
+1	Orchestra	B	6
+1	Orchestra	B	7
+1	Orchestra	B	8
+1	Orchestra	B	9
+1	Orchestra	B	10
+1	Orchestra	B	11
+1	Orchestra	B	12
+1	Orchestra	C	1
+1	Orchestra	C	2
+1	Orchestra	C	3
+1	Orchestra	C	4
+1	Orchestra	C	5
+1	Orchestra	C	6
+1	Orchestra	C	7
+1	Orchestra	C	8
+1	Orchestra	C	9
+1	Orchestra	C	10
+1	Orchestra	C	11
+1	Orchestra	C	12
+1	Orchestra	D	1
+1	Orchestra	D	2
+1	Orchestra	D	3
+1	Orchestra	D	4
+1	Orchestra	D	5
+1	Orchestra	D	6
+1	Orchestra	D	7
+1	Orchestra	D	8
+1	Orchestra	D	9
+1	Orchestra	D	10
+1	Orchestra	D	11
+1	Orchestra	D	12
+1	Orchestra	E	1
+1	Orchestra	E	2
+1	Orchestra	E	3
+1	Orchestra	E	4
+1	Orchestra	E	5
+1	Orchestra	E	6
+1	Orchestra	E	7
+1	Orchestra	E	8
+1	Orchestra	E	9
+1	Orchestra	E	10
+1	Orchestra	E	11
+1	Orchestra	E	12
+1	Balcony	A	1
+1	Balcony	A	2
+1	Balcony	A	3
+1	Balcony	A	4
+1	Balcony	A	5
+1	Balcony	A	6
+1	Balcony	A	7
+1	Balcony	A	8
+1	Balcony	A	9
+1	Balcony	A	10
+1	Balcony	B	1
+1	Balcony	B	2
+1	Balcony	B	3
+1	Balcony	B	4
+1	Balcony	B	5
+1	Balcony	B	6
+1	Balcony	B	7
+1	Balcony	B	8
+1	Balcony	B	9
+1	Balcony	B	10
+1	Balcony	C	1
+1	Balcony	C	2
+1	Balcony	C	3
+1	Balcony	C	4
+1	Balcony	C	5
+1	Balcony	C	6
+1	Balcony	C	7
+1	Balcony	C	8
+1	Balcony	C	9
+1	Balcony	C	10
+1	Balcony	D	1
+1	Balcony	D	2
+1	Balcony	D	3
+1	Balcony	D	4
+1	Balcony	D	5
+1	Balcony	D	6
+1	Balcony	D	7
+1	Balcony	D	8
+1	Balcony	D	9
+1	Balcony	D	10
+2	Main Floor	A	1
+2	Main Floor	A	2
+2	Main Floor	A	3
+2	Main Floor	A	4
+2	Main Floor	A	5
+2	Main Floor	A	6
+2	Main Floor	A	7
+2	Main Floor	A	8
+2	Main Floor	A	9
+2	Main Floor	A	10
+2	Main Floor	A	11
+2	Main Floor	A	12
+2	Main Floor	A	13
+2	Main Floor	A	14
+2	Main Floor	B	1
+2	Main Floor	B	2
+2	Main Floor	B	3
+2	Main Floor	B	4
+2	Main Floor	B	5
+2	Main Floor	B	6
+2	Main Floor	B	7
+2	Main Floor	B	8
+2	Main Floor	B	9
+2	Main Floor	B	10
+2	Main Floor	B	11
+2	Main Floor	B	12
+2	Main Floor	B	13
+2	Main Floor	B	14
+2	Main Floor	C	1
+2	Main Floor	C	2
+2	Main Floor	C	3
+2	Main Floor	C	4
+2	Main Floor	C	5
+2	Main Floor	C	6
+2	Main Floor	C	7
+2	Main Floor	C	8
+2	Main Floor	C	9
+2	Main Floor	C	10
+2	Main Floor	C	11
+2	Main Floor	C	12
+2	Main Floor	C	13
+2	Main Floor	C	14
+2	Main Floor	D	1
+2	Main Floor	D	2
+2	Main Floor	D	3
+2	Main Floor	D	4
+2	Main Floor	D	5
+2	Main Floor	D	6
+2	Main Floor	D	7
+2	Main Floor	D	8
+2	Main Floor	D	9
+2	Main Floor	D	10
+2	Main Floor	D	11
+2	Main Floor	D	12
+2	Main Floor	D	13
+2	Main Floor	D	14
+2	Main Floor	E	1
+2	Main Floor	E	2
+2	Main Floor	E	3
+2	Main Floor	E	4
+2	Main Floor	E	5
+2	Main Floor	E	6
+2	Main Floor	E	7
+2	Main Floor	E	8
+2	Main Floor	E	9
+2	Main Floor	E	10
+2	Main Floor	E	11
+2	Main Floor	E	12
+2	Main Floor	E	13
+2	Main Floor	E	14
+2	Main Floor	F	1
+2	Main Floor	F	2
+2	Main Floor	F	3
+2	Main Floor	F	4
+2	Main Floor	F	5
+2	Main Floor	F	6
+2	Main Floor	F	7
+2	Main Floor	F	8
+2	Main Floor	F	9
+2	Main Floor	F	10
+2	Main Floor	F	11
+2	Main Floor	F	12
+2	Main Floor	F	13
+2	Main Floor	F	14
+2	Mezzanine	A	1
+2	Mezzanine	A	2
+2	Mezzanine	A	3
+2	Mezzanine	A	4
+2	Mezzanine	A	5
+2	Mezzanine	A	6
+2	Mezzanine	A	7
+2	Mezzanine	A	8
+2	Mezzanine	A	9
+2	Mezzanine	A	10
+2	Mezzanine	A	11
+2	Mezzanine	A	12
+2	Mezzanine	B	1
+2	Mezzanine	B	2
+2	Mezzanine	B	3
+2	Mezzanine	B	4
+2	Mezzanine	B	5
+2	Mezzanine	B	6
+2	Mezzanine	B	7
+2	Mezzanine	B	8
+2	Mezzanine	B	9
+2	Mezzanine	B	10
+2	Mezzanine	B	11
+2	Mezzanine	B	12
+2	Mezzanine	C	1
+2	Mezzanine	C	2
+2	Mezzanine	C	3
+2	Mezzanine	C	4
+2	Mezzanine	C	5
+2	Mezzanine	C	6
+2	Mezzanine	C	7
+2	Mezzanine	C	8
+2	Mezzanine	C	9
+2	Mezzanine	C	10
+2	Mezzanine	C	11
+2	Mezzanine	C	12
+2	Mezzanine	D	1
+2	Mezzanine	D	2
+2	Mezzanine	D	3
+2	Mezzanine	D	4
+2	Mezzanine	D	5
+2	Mezzanine	D	6
+2	Mezzanine	D	7
+2	Mezzanine	D	8
+2	Mezzanine	D	9
+2	Mezzanine	D	10
+2	Mezzanine	D	11
+2	Mezzanine	D	12
+3	Orchestra	A	1
+3	Orchestra	A	2
+3	Orchestra	A	3
+3	Orchestra	A	4
+3	Orchestra	A	5
+3	Orchestra	A	6
+3	Orchestra	A	7
+3	Orchestra	A	8
+3	Orchestra	A	9
+3	Orchestra	A	10
+3	Orchestra	B	1
+3	Orchestra	B	2
+3	Orchestra	B	3
+3	Orchestra	B	4
+3	Orchestra	B	5
+3	Orchestra	B	6
+3	Orchestra	B	7
+3	Orchestra	B	8
+3	Orchestra	B	9
+3	Orchestra	B	10
+3	Orchestra	C	1
+3	Orchestra	C	2
+3	Orchestra	C	3
+3	Orchestra	C	4
+3	Orchestra	C	5
+3	Orchestra	C	6
+3	Orchestra	C	7
+3	Orchestra	C	8
+3	Orchestra	C	9
+3	Orchestra	C	10
+3	Orchestra	D	1
+3	Orchestra	D	2
+3	Orchestra	D	3
+3	Orchestra	D	4
+3	Orchestra	D	5
+3	Orchestra	D	6
+3	Orchestra	D	7
+3	Orchestra	D	8
+3	Orchestra	D	9
+3	Orchestra	D	10
+3	Balcony	A	1
+3	Balcony	A	2
+3	Balcony	A	3
+3	Balcony	A	4
+3	Balcony	A	5
+3	Balcony	A	6
+3	Balcony	A	7
+3	Balcony	A	8
+3	Balcony	B	1
+3	Balcony	B	2
+3	Balcony	B	3
+3	Balcony	B	4
+3	Balcony	B	5
+3	Balcony	B	6
+3	Balcony	B	7
+3	Balcony	B	8
+3	Balcony	C	1
+3	Balcony	C	2
+3	Balcony	C	3
+3	Balcony	C	4
+3	Balcony	C	5
+3	Balcony	C	6
+3	Balcony	C	7
+3	Balcony	C	8
+4	Main Floor	A	1
+4	Main Floor	A	2
+4	Main Floor	A	3
+4	Main Floor	A	4
+4	Main Floor	A	5
+4	Main Floor	A	6
+4	Main Floor	A	7
+4	Main Floor	A	8
+4	Main Floor	A	9
+4	Main Floor	A	10
+4	Main Floor	A	11
+4	Main Floor	A	12
+4	Main Floor	B	1
+4	Main Floor	B	2
+4	Main Floor	B	3
+4	Main Floor	B	4
+4	Main Floor	B	5
+4	Main Floor	B	6
+4	Main Floor	B	7
+4	Main Floor	B	8
+4	Main Floor	B	9
+4	Main Floor	B	10
+4	Main Floor	B	11
+4	Main Floor	B	12
+4	Main Floor	C	1
+4	Main Floor	C	2
+4	Main Floor	C	3
+4	Main Floor	C	4
+4	Main Floor	C	5
+4	Main Floor	C	6
+4	Main Floor	C	7
+4	Main Floor	C	8
+4	Main Floor	C	9
+4	Main Floor	C	10
+4	Main Floor	C	11
+4	Main Floor	C	12
+4	Main Floor	D	1
+4	Main Floor	D	2
+4	Main Floor	D	3
+4	Main Floor	D	4
+4	Main Floor	D	5
+4	Main Floor	D	6
+4	Main Floor	D	7
+4	Main Floor	D	8
+4	Main Floor	D	9
+4	Main Floor	D	10
+4	Main Floor	D	11
+4	Main Floor	D	12
+4	Main Floor	E	1
+4	Main Floor	E	2
+4	Main Floor	E	3
+4	Main Floor	E	4
+4	Main Floor	E	5
+4	Main Floor	E	6
+4	Main Floor	E	7
+4	Main Floor	E	8
+4	Main Floor	E	9
+4	Main Floor	E	10
+4	Main Floor	E	11
+4	Main Floor	E	12
+4	Main Floor	F	1
+4	Main Floor	F	2
+4	Main Floor	F	3
+4	Main Floor	F	4
+4	Main Floor	F	5
+4	Main Floor	F	6
+4	Main Floor	F	7
+4	Main Floor	F	8
+4	Main Floor	F	9
+4	Main Floor	F	10
+4	Main Floor	F	11
+4	Main Floor	F	12
+4	Upper Level	A	1
+4	Upper Level	A	2
+4	Upper Level	A	3
+4	Upper Level	A	4
+4	Upper Level	A	5
+4	Upper Level	A	6
+4	Upper Level	A	7
+4	Upper Level	A	8
+4	Upper Level	A	9
+4	Upper Level	A	10
+4	Upper Level	B	1
+4	Upper Level	B	2
+4	Upper Level	B	3
+4	Upper Level	B	4
+4	Upper Level	B	5
+4	Upper Level	B	6
+4	Upper Level	B	7
+4	Upper Level	B	8
+4	Upper Level	B	9
+4	Upper Level	B	10
+4	Upper Level	C	1
+4	Upper Level	C	2
+4	Upper Level	C	3
+4	Upper Level	C	4
+4	Upper Level	C	5
+4	Upper Level	C	6
+4	Upper Level	C	7
+4	Upper Level	C	8
+4	Upper Level	C	9
+4	Upper Level	C	10
+4	Upper Level	D	1
+4	Upper Level	D	2
+4	Upper Level	D	3
+4	Upper Level	D	4
+4	Upper Level	D	5
+4	Upper Level	D	6
+4	Upper Level	D	7
+4	Upper Level	D	8
+4	Upper Level	D	9
+4	Upper Level	D	10
+4	Upper Level	E	1
+4	Upper Level	E	2
+4	Upper Level	E	3
+4	Upper Level	E	4
+4	Upper Level	E	5
+4	Upper Level	E	6
+4	Upper Level	E	7
+4	Upper Level	E	8
+4	Upper Level	E	9
+4	Upper Level	E	10
+5	Parterre	A	1
+5	Parterre	A	2
+5	Parterre	A	3
+5	Parterre	A	4
+5	Parterre	A	5
+5	Parterre	A	6
+5	Parterre	A	7
+5	Parterre	A	8
+5	Parterre	A	9
+5	Parterre	A	10
+5	Parterre	A	11
+5	Parterre	A	12
+5	Parterre	A	13
+5	Parterre	A	14
+5	Parterre	B	1
+5	Parterre	B	2
+5	Parterre	B	3
+5	Parterre	B	4
+5	Parterre	B	5
+5	Parterre	B	6
+5	Parterre	B	7
+5	Parterre	B	8
+5	Parterre	B	9
+5	Parterre	B	10
+5	Parterre	B	11
+5	Parterre	B	12
+5	Parterre	B	13
+5	Parterre	B	14
+5	Parterre	C	1
+5	Parterre	C	2
+5	Parterre	C	3
+5	Parterre	C	4
+5	Parterre	C	5
+5	Parterre	C	6
+5	Parterre	C	7
+5	Parterre	C	8
+5	Parterre	C	9
+5	Parterre	C	10
+5	Parterre	C	11
+5	Parterre	C	12
+5	Parterre	C	13
+5	Parterre	C	14
+5	Parterre	D	1
+5	Parterre	D	2
+5	Parterre	D	3
+5	Parterre	D	4
+5	Parterre	D	5
+5	Parterre	D	6
+5	Parterre	D	7
+5	Parterre	D	8
+5	Parterre	D	9
+5	Parterre	D	10
+5	Parterre	D	11
+5	Parterre	D	12
+5	Parterre	D	13
+5	Parterre	D	14
+5	Parterre	E	1
+5	Parterre	E	2
+5	Parterre	E	3
+5	Parterre	E	4
+5	Parterre	E	5
+5	Parterre	E	6
+5	Parterre	E	7
+5	Parterre	E	8
+5	Parterre	E	9
+5	Parterre	E	10
+5	Parterre	E	11
+5	Parterre	E	12
+5	Parterre	E	13
+5	Parterre	E	14
+5	Parterre	F	1
+5	Parterre	F	2
+5	Parterre	F	3
+5	Parterre	F	4
+5	Parterre	F	5
+5	Parterre	F	6
+5	Parterre	F	7
+5	Parterre	F	8
+5	Parterre	F	9
+5	Parterre	F	10
+5	Parterre	F	11
+5	Parterre	F	12
+5	Parterre	F	13
+5	Parterre	F	14
+5	Parterre	G	1
+5	Parterre	G	2
+5	Parterre	G	3
+5	Parterre	G	4
+5	Parterre	G	5
+5	Parterre	G	6
+5	Parterre	G	7
+5	Parterre	G	8
+5	Parterre	G	9
+5	Parterre	G	10
+5	Parterre	G	11
+5	Parterre	G	12
+5	Parterre	G	13
+5	Parterre	G	14
+5	Balcon	A	1
+5	Balcon	A	2
+5	Balcon	A	3
+5	Balcon	A	4
+5	Balcon	A	5
+5	Balcon	A	6
+5	Balcon	A	7
+5	Balcon	A	8
+5	Balcon	A	9
+5	Balcon	A	10
+5	Balcon	A	11
+5	Balcon	A	12
+5	Balcon	B	1
+5	Balcon	B	2
+5	Balcon	B	3
+5	Balcon	B	4
+5	Balcon	B	5
+5	Balcon	B	6
+5	Balcon	B	7
+5	Balcon	B	8
+5	Balcon	B	9
+5	Balcon	B	10
+5	Balcon	B	11
+5	Balcon	B	12
+5	Balcon	C	1
+5	Balcon	C	2
+5	Balcon	C	3
+5	Balcon	C	4
+5	Balcon	C	5
+5	Balcon	C	6
+5	Balcon	C	7
+5	Balcon	C	8
+5	Balcon	C	9
+5	Balcon	C	10
+5	Balcon	C	11
+5	Balcon	C	12
+5	Balcon	D	1
+5	Balcon	D	2
+5	Balcon	D	3
+5	Balcon	D	4
+5	Balcon	D	5
+5	Balcon	D	6
+5	Balcon	D	7
+5	Balcon	D	8
+5	Balcon	D	9
+5	Balcon	D	10
+5	Balcon	D	11
+5	Balcon	D	12
+5	Balcon	E	1
+5	Balcon	E	2
+5	Balcon	E	3
+5	Balcon	E	4
+5	Balcon	E	5
+5	Balcon	E	6
+5	Balcon	E	7
+5	Balcon	E	8
+5	Balcon	E	9
+5	Balcon	E	10
+5	Balcon	E	11
+5	Balcon	E	12
+6	Orchestra	A	1
+6	Orchestra	A	2
+6	Orchestra	A	3
+6	Orchestra	A	4
+6	Orchestra	A	5
+6	Orchestra	A	6
+6	Orchestra	A	7
+6	Orchestra	A	8
+6	Orchestra	A	9
+6	Orchestra	A	10
+6	Orchestra	A	11
+6	Orchestra	A	12
+6	Orchestra	A	13
+6	Orchestra	A	14
+6	Orchestra	A	15
+6	Orchestra	A	16
+6	Orchestra	B	1
+6	Orchestra	B	2
+6	Orchestra	B	3
+6	Orchestra	B	4
+6	Orchestra	B	5
+6	Orchestra	B	6
+6	Orchestra	B	7
+6	Orchestra	B	8
+6	Orchestra	B	9
+6	Orchestra	B	10
+6	Orchestra	B	11
+6	Orchestra	B	12
+6	Orchestra	B	13
+6	Orchestra	B	14
+6	Orchestra	B	15
+6	Orchestra	B	16
+6	Orchestra	C	1
+6	Orchestra	C	2
+6	Orchestra	C	3
+6	Orchestra	C	4
+6	Orchestra	C	5
+6	Orchestra	C	6
+6	Orchestra	C	7
+6	Orchestra	C	8
+6	Orchestra	C	9
+6	Orchestra	C	10
+6	Orchestra	C	11
+6	Orchestra	C	12
+6	Orchestra	C	13
+6	Orchestra	C	14
+6	Orchestra	C	15
+6	Orchestra	C	16
+6	Orchestra	D	1
+6	Orchestra	D	2
+6	Orchestra	D	3
+6	Orchestra	D	4
+6	Orchestra	D	5
+6	Orchestra	D	6
+6	Orchestra	D	7
+6	Orchestra	D	8
+6	Orchestra	D	9
+6	Orchestra	D	10
+6	Orchestra	D	11
+6	Orchestra	D	12
+6	Orchestra	D	13
+6	Orchestra	D	14
+6	Orchestra	D	15
+6	Orchestra	D	16
+6	Orchestra	E	1
+6	Orchestra	E	2
+6	Orchestra	E	3
+6	Orchestra	E	4
+6	Orchestra	E	5
+6	Orchestra	E	6
+6	Orchestra	E	7
+6	Orchestra	E	8
+6	Orchestra	E	9
+6	Orchestra	E	10
+6	Orchestra	E	11
+6	Orchestra	E	12
+6	Orchestra	E	13
+6	Orchestra	E	14
+6	Orchestra	E	15
+6	Orchestra	E	16
+6	Orchestra	F	1
+6	Orchestra	F	2
+6	Orchestra	F	3
+6	Orchestra	F	4
+6	Orchestra	F	5
+6	Orchestra	F	6
+6	Orchestra	F	7
+6	Orchestra	F	8
+6	Orchestra	F	9
+6	Orchestra	F	10
+6	Orchestra	F	11
+6	Orchestra	F	12
+6	Orchestra	F	13
+6	Orchestra	F	14
+6	Orchestra	F	15
+6	Orchestra	F	16
+6	Orchestra	G	1
+6	Orchestra	G	2
+6	Orchestra	G	3
+6	Orchestra	G	4
+6	Orchestra	G	5
+6	Orchestra	G	6
+6	Orchestra	G	7
+6	Orchestra	G	8
+6	Orchestra	G	9
+6	Orchestra	G	10
+6	Orchestra	G	11
+6	Orchestra	G	12
+6	Orchestra	G	13
+6	Orchestra	G	14
+6	Orchestra	G	15
+6	Orchestra	G	16
+6	Orchestra	H	1
+6	Orchestra	H	2
+6	Orchestra	H	3
+6	Orchestra	H	4
+6	Orchestra	H	5
+6	Orchestra	H	6
+6	Orchestra	H	7
+6	Orchestra	H	8
+6	Orchestra	H	9
+6	Orchestra	H	10
+6	Orchestra	H	11
+6	Orchestra	H	12
+6	Orchestra	H	13
+6	Orchestra	H	14
+6	Orchestra	H	15
+6	Orchestra	H	16
+6	Balcony	A	1
+6	Balcony	A	2
+6	Balcony	A	3
+6	Balcony	A	4
+6	Balcony	A	5
+6	Balcony	A	6
+6	Balcony	A	7
+6	Balcony	A	8
+6	Balcony	A	9
+6	Balcony	A	10
+6	Balcony	A	11
+6	Balcony	A	12
+6	Balcony	A	13
+6	Balcony	A	14
+6	Balcony	B	1
+6	Balcony	B	2
+6	Balcony	B	3
+6	Balcony	B	4
+6	Balcony	B	5
+6	Balcony	B	6
+6	Balcony	B	7
+6	Balcony	B	8
+6	Balcony	B	9
+6	Balcony	B	10
+6	Balcony	B	11
+6	Balcony	B	12
+6	Balcony	B	13
+6	Balcony	B	14
+6	Balcony	C	1
+6	Balcony	C	2
+6	Balcony	C	3
+6	Balcony	C	4
+6	Balcony	C	5
+6	Balcony	C	6
+6	Balcony	C	7
+6	Balcony	C	8
+6	Balcony	C	9
+6	Balcony	C	10
+6	Balcony	C	11
+6	Balcony	C	12
+6	Balcony	C	13
+6	Balcony	C	14
+6	Balcony	D	1
+6	Balcony	D	2
+6	Balcony	D	3
+6	Balcony	D	4
+6	Balcony	D	5
+6	Balcony	D	6
+6	Balcony	D	7
+6	Balcony	D	8
+6	Balcony	D	9
+6	Balcony	D	10
+6	Balcony	D	11
+6	Balcony	D	12
+6	Balcony	D	13
+6	Balcony	D	14
+6	Balcony	E	1
+6	Balcony	E	2
+6	Balcony	E	3
+6	Balcony	E	4
+6	Balcony	E	5
+6	Balcony	E	6
+6	Balcony	E	7
+6	Balcony	E	8
+6	Balcony	E	9
+6	Balcony	E	10
+6	Balcony	E	11
+6	Balcony	E	12
+6	Balcony	E	13
+6	Balcony	E	14
+6	Balcony	F	1
+6	Balcony	F	2
+6	Balcony	F	3
+6	Balcony	F	4
+6	Balcony	F	5
+6	Balcony	F	6
+6	Balcony	F	7
+6	Balcony	F	8
+6	Balcony	F	9
+6	Balcony	F	10
+6	Balcony	F	11
+6	Balcony	F	12
+6	Balcony	F	13
+6	Balcony	F	14
+7	Floor	A	1
+7	Floor	A	2
+7	Floor	A	3
+7	Floor	A	4
+7	Floor	A	5
+7	Floor	A	6
+7	Floor	A	7
+7	Floor	A	8
+7	Floor	A	9
+7	Floor	A	10
+7	Floor	A	11
+7	Floor	A	12
+7	Floor	A	13
+7	Floor	A	14
+7	Floor	A	15
+7	Floor	A	16
+7	Floor	A	17
+7	Floor	A	18
+7	Floor	B	1
+7	Floor	B	2
+7	Floor	B	3
+7	Floor	B	4
+7	Floor	B	5
+7	Floor	B	6
+7	Floor	B	7
+7	Floor	B	8
+7	Floor	B	9
+7	Floor	B	10
+7	Floor	B	11
+7	Floor	B	12
+7	Floor	B	13
+7	Floor	B	14
+7	Floor	B	15
+7	Floor	B	16
+7	Floor	B	17
+7	Floor	B	18
+7	Floor	C	1
+7	Floor	C	2
+7	Floor	C	3
+7	Floor	C	4
+7	Floor	C	5
+7	Floor	C	6
+7	Floor	C	7
+7	Floor	C	8
+7	Floor	C	9
+7	Floor	C	10
+7	Floor	C	11
+7	Floor	C	12
+7	Floor	C	13
+7	Floor	C	14
+7	Floor	C	15
+7	Floor	C	16
+7	Floor	C	17
+7	Floor	C	18
+7	Floor	D	1
+7	Floor	D	2
+7	Floor	D	3
+7	Floor	D	4
+7	Floor	D	5
+7	Floor	D	6
+7	Floor	D	7
+7	Floor	D	8
+7	Floor	D	9
+7	Floor	D	10
+7	Floor	D	11
+7	Floor	D	12
+7	Floor	D	13
+7	Floor	D	14
+7	Floor	D	15
+7	Floor	D	16
+7	Floor	D	17
+7	Floor	D	18
+7	Floor	E	1
+7	Floor	E	2
+7	Floor	E	3
+7	Floor	E	4
+7	Floor	E	5
+7	Floor	E	6
+7	Floor	E	7
+7	Floor	E	8
+7	Floor	E	9
+7	Floor	E	10
+7	Floor	E	11
+7	Floor	E	12
+7	Floor	E	13
+7	Floor	E	14
+7	Floor	E	15
+7	Floor	E	16
+7	Floor	E	17
+7	Floor	E	18
+7	Floor	F	1
+7	Floor	F	2
+7	Floor	F	3
+7	Floor	F	4
+7	Floor	F	5
+7	Floor	F	6
+7	Floor	F	7
+7	Floor	F	8
+7	Floor	F	9
+7	Floor	F	10
+7	Floor	F	11
+7	Floor	F	12
+7	Floor	F	13
+7	Floor	F	14
+7	Floor	F	15
+7	Floor	F	16
+7	Floor	F	17
+7	Floor	F	18
+7	Floor	G	1
+7	Floor	G	2
+7	Floor	G	3
+7	Floor	G	4
+7	Floor	G	5
+7	Floor	G	6
+7	Floor	G	7
+7	Floor	G	8
+7	Floor	G	9
+7	Floor	G	10
+7	Floor	G	11
+7	Floor	G	12
+7	Floor	G	13
+7	Floor	G	14
+7	Floor	G	15
+7	Floor	G	16
+7	Floor	G	17
+7	Floor	G	18
+7	Floor	H	1
+7	Floor	H	2
+7	Floor	H	3
+7	Floor	H	4
+7	Floor	H	5
+7	Floor	H	6
+7	Floor	H	7
+7	Floor	H	8
+7	Floor	H	9
+7	Floor	H	10
+7	Floor	H	11
+7	Floor	H	12
+7	Floor	H	13
+7	Floor	H	14
+7	Floor	H	15
+7	Floor	H	16
+7	Floor	H	17
+7	Floor	H	18
+7	Floor	I	1
+7	Floor	I	2
+7	Floor	I	3
+7	Floor	I	4
+7	Floor	I	5
+7	Floor	I	6
+7	Floor	I	7
+7	Floor	I	8
+7	Floor	I	9
+7	Floor	I	10
+7	Floor	I	11
+7	Floor	I	12
+7	Floor	I	13
+7	Floor	I	14
+7	Floor	I	15
+7	Floor	I	16
+7	Floor	I	17
+7	Floor	I	18
+7	Floor	J	1
+7	Floor	J	2
+7	Floor	J	3
+7	Floor	J	4
+7	Floor	J	5
+7	Floor	J	6
+7	Floor	J	7
+7	Floor	J	8
+7	Floor	J	9
+7	Floor	J	10
+7	Floor	J	11
+7	Floor	J	12
+7	Floor	J	13
+7	Floor	J	14
+7	Floor	J	15
+7	Floor	J	16
+7	Floor	J	17
+7	Floor	J	18
+7	Upper Bowl	A	1
+7	Upper Bowl	A	2
+7	Upper Bowl	A	3
+7	Upper Bowl	A	4
+7	Upper Bowl	A	5
+7	Upper Bowl	A	6
+7	Upper Bowl	A	7
+7	Upper Bowl	A	8
+7	Upper Bowl	A	9
+7	Upper Bowl	A	10
+7	Upper Bowl	A	11
+7	Upper Bowl	A	12
+7	Upper Bowl	A	13
+7	Upper Bowl	A	14
+7	Upper Bowl	A	15
+7	Upper Bowl	A	16
+7	Upper Bowl	B	1
+7	Upper Bowl	B	2
+7	Upper Bowl	B	3
+7	Upper Bowl	B	4
+7	Upper Bowl	B	5
+7	Upper Bowl	B	6
+7	Upper Bowl	B	7
+7	Upper Bowl	B	8
+7	Upper Bowl	B	9
+7	Upper Bowl	B	10
+7	Upper Bowl	B	11
+7	Upper Bowl	B	12
+7	Upper Bowl	B	13
+7	Upper Bowl	B	14
+7	Upper Bowl	B	15
+7	Upper Bowl	B	16
+7	Upper Bowl	C	1
+7	Upper Bowl	C	2
+7	Upper Bowl	C	3
+7	Upper Bowl	C	4
+7	Upper Bowl	C	5
+7	Upper Bowl	C	6
+7	Upper Bowl	C	7
+7	Upper Bowl	C	8
+7	Upper Bowl	C	9
+7	Upper Bowl	C	10
+7	Upper Bowl	C	11
+7	Upper Bowl	C	12
+7	Upper Bowl	C	13
+7	Upper Bowl	C	14
+7	Upper Bowl	C	15
+7	Upper Bowl	C	16
+7	Upper Bowl	D	1
+7	Upper Bowl	D	2
+7	Upper Bowl	D	3
+7	Upper Bowl	D	4
+7	Upper Bowl	D	5
+7	Upper Bowl	D	6
+7	Upper Bowl	D	7
+7	Upper Bowl	D	8
+7	Upper Bowl	D	9
+7	Upper Bowl	D	10
+7	Upper Bowl	D	11
+7	Upper Bowl	D	12
+7	Upper Bowl	D	13
+7	Upper Bowl	D	14
+7	Upper Bowl	D	15
+7	Upper Bowl	D	16
+7	Upper Bowl	E	1
+7	Upper Bowl	E	2
+7	Upper Bowl	E	3
+7	Upper Bowl	E	4
+7	Upper Bowl	E	5
+7	Upper Bowl	E	6
+7	Upper Bowl	E	7
+7	Upper Bowl	E	8
+7	Upper Bowl	E	9
+7	Upper Bowl	E	10
+7	Upper Bowl	E	11
+7	Upper Bowl	E	12
+7	Upper Bowl	E	13
+7	Upper Bowl	E	14
+7	Upper Bowl	E	15
+7	Upper Bowl	E	16
+7	Upper Bowl	F	1
+7	Upper Bowl	F	2
+7	Upper Bowl	F	3
+7	Upper Bowl	F	4
+7	Upper Bowl	F	5
+7	Upper Bowl	F	6
+7	Upper Bowl	F	7
+7	Upper Bowl	F	8
+7	Upper Bowl	F	9
+7	Upper Bowl	F	10
+7	Upper Bowl	F	11
+7	Upper Bowl	F	12
+7	Upper Bowl	F	13
+7	Upper Bowl	F	14
+7	Upper Bowl	F	15
+7	Upper Bowl	F	16
+7	Upper Bowl	G	1
+7	Upper Bowl	G	2
+7	Upper Bowl	G	3
+7	Upper Bowl	G	4
+7	Upper Bowl	G	5
+7	Upper Bowl	G	6
+7	Upper Bowl	G	7
+7	Upper Bowl	G	8
+7	Upper Bowl	G	9
+7	Upper Bowl	G	10
+7	Upper Bowl	G	11
+7	Upper Bowl	G	12
+7	Upper Bowl	G	13
+7	Upper Bowl	G	14
+7	Upper Bowl	G	15
+7	Upper Bowl	G	16
+7	Upper Bowl	H	1
+7	Upper Bowl	H	2
+7	Upper Bowl	H	3
+7	Upper Bowl	H	4
+7	Upper Bowl	H	5
+7	Upper Bowl	H	6
+7	Upper Bowl	H	7
+7	Upper Bowl	H	8
+7	Upper Bowl	H	9
+7	Upper Bowl	H	10
+7	Upper Bowl	H	11
+7	Upper Bowl	H	12
+7	Upper Bowl	H	13
+7	Upper Bowl	H	14
+7	Upper Bowl	H	15
+7	Upper Bowl	H	16
+8	Main Floor	A	1
+8	Main Floor	A	2
+8	Main Floor	A	3
+8	Main Floor	A	4
+8	Main Floor	A	5
+8	Main Floor	A	6
+8	Main Floor	A	7
+8	Main Floor	A	8
+8	Main Floor	A	9
+8	Main Floor	A	10
+8	Main Floor	A	11
+8	Main Floor	A	12
+8	Main Floor	A	13
+8	Main Floor	A	14
+8	Main Floor	A	15
+8	Main Floor	B	1
+8	Main Floor	B	2
+8	Main Floor	B	3
+8	Main Floor	B	4
+8	Main Floor	B	5
+8	Main Floor	B	6
+8	Main Floor	B	7
+8	Main Floor	B	8
+8	Main Floor	B	9
+8	Main Floor	B	10
+8	Main Floor	B	11
+8	Main Floor	B	12
+8	Main Floor	B	13
+8	Main Floor	B	14
+8	Main Floor	B	15
+8	Main Floor	C	1
+8	Main Floor	C	2
+8	Main Floor	C	3
+8	Main Floor	C	4
+8	Main Floor	C	5
+8	Main Floor	C	6
+8	Main Floor	C	7
+8	Main Floor	C	8
+8	Main Floor	C	9
+8	Main Floor	C	10
+8	Main Floor	C	11
+8	Main Floor	C	12
+8	Main Floor	C	13
+8	Main Floor	C	14
+8	Main Floor	C	15
+8	Main Floor	D	1
+8	Main Floor	D	2
+8	Main Floor	D	3
+8	Main Floor	D	4
+8	Main Floor	D	5
+8	Main Floor	D	6
+8	Main Floor	D	7
+8	Main Floor	D	8
+8	Main Floor	D	9
+8	Main Floor	D	10
+8	Main Floor	D	11
+8	Main Floor	D	12
+8	Main Floor	D	13
+8	Main Floor	D	14
+8	Main Floor	D	15
+8	Main Floor	E	1
+8	Main Floor	E	2
+8	Main Floor	E	3
+8	Main Floor	E	4
+8	Main Floor	E	5
+8	Main Floor	E	6
+8	Main Floor	E	7
+8	Main Floor	E	8
+8	Main Floor	E	9
+8	Main Floor	E	10
+8	Main Floor	E	11
+8	Main Floor	E	12
+8	Main Floor	E	13
+8	Main Floor	E	14
+8	Main Floor	E	15
+8	Main Floor	F	1
+8	Main Floor	F	2
+8	Main Floor	F	3
+8	Main Floor	F	4
+8	Main Floor	F	5
+8	Main Floor	F	6
+8	Main Floor	F	7
+8	Main Floor	F	8
+8	Main Floor	F	9
+8	Main Floor	F	10
+8	Main Floor	F	11
+8	Main Floor	F	12
+8	Main Floor	F	13
+8	Main Floor	F	14
+8	Main Floor	F	15
+8	Main Floor	G	1
+8	Main Floor	G	2
+8	Main Floor	G	3
+8	Main Floor	G	4
+8	Main Floor	G	5
+8	Main Floor	G	6
+8	Main Floor	G	7
+8	Main Floor	G	8
+8	Main Floor	G	9
+8	Main Floor	G	10
+8	Main Floor	G	11
+8	Main Floor	G	12
+8	Main Floor	G	13
+8	Main Floor	G	14
+8	Main Floor	G	15
+8	Gallery	A	1
+8	Gallery	A	2
+8	Gallery	A	3
+8	Gallery	A	4
+8	Gallery	A	5
+8	Gallery	A	6
+8	Gallery	A	7
+8	Gallery	A	8
+8	Gallery	A	9
+8	Gallery	A	10
+8	Gallery	A	11
+8	Gallery	A	12
+8	Gallery	B	1
+8	Gallery	B	2
+8	Gallery	B	3
+8	Gallery	B	4
+8	Gallery	B	5
+8	Gallery	B	6
+8	Gallery	B	7
+8	Gallery	B	8
+8	Gallery	B	9
+8	Gallery	B	10
+8	Gallery	B	11
+8	Gallery	B	12
+8	Gallery	C	1
+8	Gallery	C	2
+8	Gallery	C	3
+8	Gallery	C	4
+8	Gallery	C	5
+8	Gallery	C	6
+8	Gallery	C	7
+8	Gallery	C	8
+8	Gallery	C	9
+8	Gallery	C	10
+8	Gallery	C	11
+8	Gallery	C	12
+8	Gallery	D	1
+8	Gallery	D	2
+8	Gallery	D	3
+8	Gallery	D	4
+8	Gallery	D	5
+8	Gallery	D	6
+8	Gallery	D	7
+8	Gallery	D	8
+8	Gallery	D	9
+8	Gallery	D	10
+8	Gallery	D	11
+8	Gallery	D	12
+8	Gallery	E	1
+8	Gallery	E	2
+8	Gallery	E	3
+8	Gallery	E	4
+8	Gallery	E	5
+8	Gallery	E	6
+8	Gallery	E	7
+8	Gallery	E	8
+8	Gallery	E	9
+8	Gallery	E	10
+8	Gallery	E	11
+8	Gallery	E	12

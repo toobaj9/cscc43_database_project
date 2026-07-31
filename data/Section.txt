@@ -1,0 +1,24 @@
+1	Orchestra	reserved
+1	Balcony	reserved
+1	Lawn	general
+2	Main Floor	reserved
+2	Mezzanine	reserved
+2	Terrace	general
+3	Orchestra	reserved
+3	Balcony	reserved
+3	Atrium	general
+4	Main Floor	reserved
+4	Upper Level	reserved
+4	Pavilion	general
+5	Parterre	reserved
+5	Balcon	reserved
+5	Courtyard	general
+6	Orchestra	reserved
+6	Balcony	reserved
+6	Plaza	general
+7	Floor	reserved
+7	Upper Bowl	reserved
+7	Concourse	general
+8	Main Floor	reserved
+8	Gallery	reserved
+8	Promenade	general

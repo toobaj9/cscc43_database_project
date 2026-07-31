@@ -1,0 +1,8 @@
+Concerts	Pop
+Concerts	Rock
+Concerts	Classical
+Arts, Theatre & Comedy	Musical
+Arts, Theatre & Comedy	Comedy
+Arts, Theatre & Comedy	Classical
+Sports	Basketball
+Sports	Hockey

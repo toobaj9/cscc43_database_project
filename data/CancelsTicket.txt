@@ -1,0 +1,6 @@
+110	customer001@mytix.com	145.0	Travel plans changed.	2026-07-27 21:03:28
+111	customer001@mytix.com	145.0	Scheduling conflict.	2026-07-28 21:03:28
+112	customer001@mytix.com	145.0	Wrong performance date.	2026-07-29 21:03:28
+136	customer004@mytix.com	0.0	Family commitment.	2026-07-30 20:03:28
+137	customer004@mytix.com	0.0	Transportation issue.	2026-07-30 19:03:28
+138	customer004@mytix.com	0.0	Duplicate purchase.	2026-07-30 18:03:28

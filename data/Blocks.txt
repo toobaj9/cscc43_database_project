@@ -1,0 +1,15 @@
+5	Orchestra	3	A	1	2026-07-10 10:00:00	Sightline obstruction
+5	Orchestra	3	A	2	2026-07-11 10:00:00	Technical equipment
+5	Orchestra	3	A	3	2026-07-12 10:00:00	Venue maintenance
+12	Main Floor	4	A	1	2026-07-10 10:00:00	Sightline obstruction
+12	Main Floor	4	A	2	2026-07-11 10:00:00	Technical equipment
+12	Main Floor	4	A	3	2026-07-12 10:00:00	Venue maintenance
+31	Orchestra	1	A	1	2026-07-10 10:00:00	Sightline obstruction
+31	Orchestra	1	A	2	2026-07-11 10:00:00	Technical equipment
+31	Orchestra	1	A	3	2026-07-12 10:00:00	Venue maintenance
+40	Floor	7	A	1	2026-07-10 10:00:00	Sightline obstruction
+40	Floor	7	A	2	2026-07-11 10:00:00	Technical equipment
+40	Floor	7	A	3	2026-07-12 10:00:00	Venue maintenance
+44	Floor	7	A	1	2026-07-10 10:00:00	Sightline obstruction
+44	Floor	7	A	2	2026-07-11 10:00:00	Technical equipment
+44	Floor	7	A	3	2026-07-12 10:00:00	Venue maintenance

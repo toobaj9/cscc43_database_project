@@ -1,0 +1,20 @@
+1	organizer1@mytix.com	Neon Nights Tour	1.25
+2	organizer1@mytix.com	Northern Lights Live	1.2
+3	organizer2@mytix.com	The Clockmaker	1.15
+4	organizer2@mytix.com	Late Night Laughs	1.3
+5	organizer3@mytix.com	Pacific Sound Festival	1.25
+6	organizer4@mytix.com	Mozart by Candlelight	1.1
+7	organizer5@mytix.com	City Hoops Showcase	1.2
+8	organizer5@mytix.com	Northern Blades Classic	1.2
+9	organizer1@mytix.com	Violet Sky Acoustic	1.15
+10	organizer2@mytix.com	Comedy Across Canada	1.25
+11	organizer3@mytix.com	Blue Horizon Reunion	1.3
+12	organizer4@mytix.com	The Grand Quartet	1.1
+13	organizer2@mytix.com	Moonlit Steps	1.15
+14	organizer5@mytix.com	Downtown Basketball Cup	1.25
+15	organizer1@mytix.com	Pop Rising	1.3
+16	organizer3@mytix.com	West Coast Pulse Live	1.25
+17	organizer4@mytix.com	Classics at the Theatre	1.1
+18	organizer2@mytix.com	Jordan Miles: New Material	1.2
+19	organizer5@mytix.com	Winter Hockey Exhibition	1.2
+20	organizer3@mytix.com	Atlas Echo World Tour	1.3

@@ -1,0 +1,18 @@
+1	Nova Lane	artist
+2	The Northern Lights	team
+3	Maya Rivers	artist
+4	Atlas Echo	team
+5	Toronto Chamber Ensemble	team
+6	Lena Brooks	artist
+7	Samir Patel	artist
+8	The Crescent Players	team
+9	Metro Dance Collective	team
+10	Blue Horizon	team
+11	Aria Chen	artist
+12	Redwood Avenue	team
+13	City Hoops	team
+14	Northern Blades	team
+15	Violet Sky	artist
+16	The Grand Quartet	team
+17	Jordan Miles	artist
+18	West Coast Pulse	team

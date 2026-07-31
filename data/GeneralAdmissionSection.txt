@@ -1,0 +1,8 @@
+1	Lawn	60
+2	Terrace	80
+3	Atrium	35
+4	Pavilion	70
+5	Courtyard	90
+6	Plaza	120
+7	Concourse	150
+8	Promenade	100

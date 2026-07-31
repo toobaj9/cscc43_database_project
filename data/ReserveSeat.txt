@@ -1,0 +1,639 @@
+1	Orchestra	3	A	1
+2	Orchestra	3	A	2
+3	Orchestra	3	A	3
+4	Orchestra	3	A	4
+5	Orchestra	3	A	5
+6	Orchestra	3	A	6
+7	Orchestra	3	A	7
+8	Orchestra	3	A	8
+9	Orchestra	3	A	9
+10	Orchestra	3	A	10
+11	Orchestra	3	B	1
+12	Orchestra	3	B	2
+13	Orchestra	3	B	3
+14	Orchestra	3	B	4
+15	Orchestra	3	B	5
+16	Orchestra	3	B	6
+17	Orchestra	3	B	7
+18	Orchestra	3	B	8
+19	Orchestra	3	B	9
+20	Orchestra	3	B	10
+21	Orchestra	3	C	1
+22	Orchestra	3	C	2
+23	Orchestra	3	C	3
+24	Orchestra	3	C	4
+25	Orchestra	3	C	5
+26	Orchestra	3	C	6
+27	Orchestra	3	C	7
+28	Orchestra	3	C	8
+29	Orchestra	3	C	9
+30	Orchestra	3	C	10
+31	Orchestra	3	D	1
+32	Orchestra	3	D	2
+33	Orchestra	3	D	3
+34	Orchestra	3	D	4
+35	Orchestra	3	D	5
+36	Orchestra	3	D	6
+37	Orchestra	3	D	7
+38	Orchestra	3	D	8
+39	Orchestra	3	D	9
+40	Orchestra	3	D	10
+41	Balcony	3	A	1
+42	Balcony	3	A	2
+43	Balcony	3	A	3
+44	Balcony	3	A	4
+45	Balcony	3	A	5
+46	Balcony	3	A	6
+47	Balcony	3	A	7
+48	Balcony	3	A	8
+49	Balcony	3	B	1
+50	Balcony	3	B	2
+51	Balcony	3	B	3
+52	Balcony	3	B	4
+53	Balcony	3	B	5
+54	Balcony	3	B	6
+55	Balcony	3	B	7
+56	Balcony	3	B	8
+57	Balcony	3	C	1
+58	Balcony	3	C	2
+59	Balcony	3	C	3
+60	Balcony	3	C	4
+61	Balcony	3	C	5
+62	Balcony	3	C	6
+63	Balcony	3	C	7
+64	Balcony	3	C	8
+100	Orchestra	3	A	1
+101	Orchestra	3	A	2
+102	Orchestra	3	A	3
+103	Orchestra	3	A	4
+104	Balcony	3	A	1
+105	Balcony	3	A	2
+106	Balcony	3	A	3
+110	Orchestra	1	A	1
+111	Orchestra	1	A	2
+112	Orchestra	1	A	3
+113	Orchestra	1	A	4
+114	Orchestra	1	A	9
+115	Orchestra	1	A	10
+116	Orchestra	1	A	11
+117	Orchestra	1	A	12
+118	Orchestra	1	B	2
+119	Orchestra	1	B	4
+120	Orchestra	1	B	6
+121	Orchestra	1	B	8
+122	Orchestra	1	B	10
+123	Orchestra	1	B	12
+124	Balcony	1	A	1
+125	Balcony	1	A	2
+126	Balcony	1	A	3
+127	Balcony	1	A	4
+136	Main Floor	2	A	1
+137	Main Floor	2	A	2
+138	Main Floor	2	A	3
+139	Main Floor	2	A	4
+145	Orchestra	6	A	1
+146	Orchestra	6	A	2
+147	Orchestra	6	A	3
+148	Orchestra	6	A	4
+149	Orchestra	1	A	5
+150	Orchestra	1	A	6
+151	Main Floor	2	A	5
+152	Main Floor	2	A	6
+153	Parterre	5	A	1
+154	Parterre	5	A	2
+155	Main Floor	4	A	1
+156	Main Floor	4	A	2
+157	Orchestra	1	A	7
+158	Orchestra	1	A	8
+159	Main Floor	2	A	7
+160	Main Floor	2	A	8
+161	Balcony	3	A	1
+162	Balcony	3	A	2
+163	Balcony	3	A	3
+164	Parterre	5	A	1
+165	Parterre	5	A	2
+166	Parterre	5	A	3
+167	Parterre	5	A	4
+168	Balcony	3	A	1
+169	Balcony	3	A	2
+170	Orchestra	3	A	1
+171	Orchestra	3	A	2
+172	Orchestra	3	A	3
+173	Orchestra	3	A	4
+181	Main Floor	2	A	1
+182	Main Floor	2	A	2
+183	Gallery	8	A	1
+184	Gallery	8	A	2
+185	Main Floor	8	A	1
+186	Main Floor	8	A	2
+187	Main Floor	8	A	3
+188	Mezzanine	2	A	1
+189	Mezzanine	2	A	2
+193	Orchestra	3	A	1
+194	Orchestra	3	A	2
+195	Orchestra	3	A	3
+196	Orchestra	3	A	4
+197	Balcony	1	A	1
+198	Balcony	1	A	2
+202	Main Floor	2	A	1
+203	Main Floor	4	A	1
+204	Main Floor	4	A	2
+205	Main Floor	4	A	3
+206	Main Floor	4	A	4
+207	Main Floor	8	A	1
+208	Main Floor	8	A	2
+209	Main Floor	4	A	5
+210	Main Floor	4	A	6
+217	Balcony	3	A	1
+218	Balcony	3	A	2
+219	Parterre	5	A	1
+220	Floor	7	A	1
+221	Floor	7	A	2
+222	Balcon	5	A	1
+223	Orchestra	3	A	1
+224	Orchestra	3	A	2
+225	Orchestra	3	A	3
+226	Balcon	5	A	1
+227	Floor	7	A	4
+228	Floor	7	A	5
+229	Floor	7	A	6
+230	Main Floor	8	A	3
+231	Main Floor	8	A	4
+232	Main Floor	8	A	5
+233	Main Floor	8	A	6
+234	Balcony	6	A	1
+235	Balcony	6	A	2
+236	Balcony	6	A	3
+237	Balcony	1	A	1
+238	Balcony	1	A	2
+239	Balcony	1	A	3
+240	Balcony	1	A	4
+241	Main Floor	2	A	1
+242	Main Floor	2	A	2
+243	Main Floor	2	A	3
+244	Orchestra	1	A	1
+245	Orchestra	1	A	2
+246	Orchestra	1	A	3
+247	Orchestra	1	A	4
+248	Main Floor	2	A	3
+249	Main Floor	2	A	4
+250	Orchestra	3	A	1
+251	Orchestra	3	A	2
+252	Orchestra	3	A	3
+253	Mezzanine	2	A	1
+254	Mezzanine	2	A	2
+255	Gallery	8	A	1
+256	Gallery	8	A	2
+257	Gallery	8	A	3
+261	Balcon	5	A	2
+262	Balcon	5	A	3
+263	Main Floor	2	A	1
+264	Main Floor	2	A	2
+265	Orchestra	1	A	1
+266	Orchestra	1	A	2
+267	Floor	7	A	7
+268	Floor	7	A	8
+269	Floor	7	A	9
+273	Orchestra	6	A	1
+274	Orchestra	6	A	2
+275	Orchestra	6	A	3
+276	Orchestra	6	A	4
+277	Mezzanine	2	A	1
+278	Mezzanine	2	A	2
+279	Orchestra	1	A	1
+280	Orchestra	1	A	2
+281	Orchestra	1	A	3
+282	Orchestra	1	A	4
+283	Balcony	6	A	4
+284	Balcony	6	A	5
+285	Balcony	6	A	6
+286	Balcony	6	A	7
+287	Upper Bowl	7	A	1
+288	Main Floor	4	A	7
+289	Main Floor	4	A	8
+290	Gallery	8	A	4
+291	Gallery	8	A	5
+292	Gallery	8	A	6
+293	Gallery	8	A	7
+294	Balcony	1	A	1
+295	Balcony	1	A	2
+299	Orchestra	3	A	5
+300	Orchestra	3	A	6
+301	Main Floor	2	A	9
+302	Parterre	5	A	1
+303	Parterre	5	A	2
+305	Orchestra	1	A	3
+306	Floor	7	A	1
+307	Floor	7	A	2
+308	Floor	7	A	3
+312	Gallery	8	A	1
+313	Gallery	8	A	2
+314	Gallery	8	A	3
+315	Upper Bowl	7	A	1
+316	Upper Bowl	7	A	2
+317	Parterre	5	A	5
+318	Parterre	5	A	6
+319	Parterre	5	A	7
+320	Balcon	5	A	1
+325	Upper Bowl	7	A	2
+326	Upper Bowl	7	A	3
+327	Upper Bowl	7	A	4
+328	Parterre	5	A	2
+329	Parterre	5	A	3
+330	Parterre	5	A	1
+331	Gallery	8	A	3
+332	Gallery	8	A	4
+333	Gallery	8	A	5
+338	Orchestra	1	A	1
+339	Orchestra	1	A	2
+340	Orchestra	1	A	3
+341	Orchestra	1	A	4
+342	Orchestra	3	A	5
+343	Balcony	3	A	4
+344	Balcony	3	A	5
+345	Balcony	3	A	3
+346	Balcony	3	A	4
+347	Orchestra	3	A	4
+348	Orchestra	3	A	5
+349	Balcony	1	A	1
+350	Balcony	1	A	2
+351	Balcony	1	A	3
+356	Mezzanine	2	A	1
+357	Mezzanine	2	A	2
+358	Mezzanine	2	A	3
+359	Balcon	5	A	1
+360	Balcon	5	A	2
+361	Balcon	5	A	3
+362	Gallery	8	A	1
+363	Gallery	8	A	2
+364	Gallery	8	A	3
+365	Balcon	5	A	1
+366	Balcon	5	A	2
+367	Balcon	5	A	3
+368	Balcon	5	A	4
+369	Main Floor	2	A	2
+370	Gallery	8	A	4
+371	Gallery	8	A	5
+372	Gallery	8	A	6
+373	Gallery	8	A	7
+374	Balcon	5	A	1
+375	Balcon	5	A	2
+376	Balcon	5	A	3
+377	Orchestra	1	A	4
+378	Orchestra	1	A	5
+379	Orchestra	1	A	6
+380	Orchestra	1	A	7
+383	Orchestra	1	B	1
+384	Orchestra	1	B	3
+385	Balcony	1	A	3
+386	Balcony	1	A	4
+387	Balcon	5	A	2
+388	Balcon	5	A	3
+389	Balcony	1	A	1
+390	Balcony	1	A	2
+391	Balcony	1	A	3
+392	Balcony	3	A	1
+393	Balcony	3	A	2
+394	Balcony	3	A	3
+395	Orchestra	3	A	1
+396	Orchestra	3	A	2
+397	Orchestra	3	A	3
+398	Balcony	3	A	1
+399	Balcony	3	A	2
+400	Balcony	3	A	3
+408	Orchestra	3	A	1
+409	Orchestra	3	A	2
+410	Orchestra	3	A	3
+411	Orchestra	3	A	4
+412	Balcon	5	A	4
+413	Balcon	5	A	5
+414	Balcon	5	A	6
+415	Balcon	5	A	7
+416	Gallery	8	A	4
+417	Gallery	8	A	5
+418	Gallery	8	A	6
+419	Upper Level	4	A	1
+420	Upper Level	4	A	2
+421	Orchestra	1	A	1
+422	Orchestra	1	A	2
+423	Orchestra	1	A	3
+424	Orchestra	1	A	4
+425	Main Floor	4	A	1
+426	Main Floor	4	A	2
+427	Orchestra	6	A	5
+428	Orchestra	6	A	6
+429	Gallery	8	A	8
+430	Gallery	8	A	9
+431	Main Floor	4	A	1
+432	Main Floor	4	A	2
+433	Main Floor	4	A	3
+434	Main Floor	4	A	4
+435	Orchestra	6	A	7
+436	Gallery	8	A	8
+437	Gallery	8	A	9
+438	Gallery	8	A	10
+441	Balcony	1	A	4
+442	Balcony	1	A	5
+443	Balcony	1	A	6
+447	Main Floor	2	A	1
+448	Main Floor	2	A	2
+449	Main Floor	2	A	3
+453	Balcony	3	A	1
+454	Balcony	3	A	2
+460	Main Floor	4	A	4
+461	Main Floor	4	A	5
+462	Main Floor	4	A	6
+463	Gallery	8	A	1
+464	Gallery	8	A	2
+465	Main Floor	2	A	10
+466	Upper Bowl	7	A	1
+467	Upper Bowl	7	A	2
+468	Balcon	5	A	5
+469	Balcon	5	A	6
+470	Balcon	5	A	7
+471	Balcony	1	A	1
+472	Balcony	1	A	2
+473	Orchestra	3	A	1
+474	Orchestra	3	A	2
+475	Orchestra	3	A	3
+476	Main Floor	4	A	7
+477	Orchestra	6	A	1
+478	Main Floor	4	A	3
+479	Main Floor	4	A	4
+480	Main Floor	4	A	5
+481	Floor	7	A	3
+482	Floor	7	A	4
+483	Floor	7	A	5
+485	Upper Level	4	A	1
+486	Upper Level	4	A	2
+487	Balcon	5	A	4
+488	Balcon	5	A	5
+489	Balcon	5	A	6
+491	Orchestra	3	A	4
+492	Orchestra	3	A	5
+493	Orchestra	3	A	6
+494	Parterre	5	A	2
+495	Parterre	5	A	3
+496	Parterre	5	A	4
+497	Parterre	5	A	5
+498	Balcony	3	A	6
+499	Balcony	3	A	7
+500	Parterre	5	A	8
+501	Parterre	5	A	9
+507	Balcony	1	A	7
+508	Balcony	1	A	8
+509	Balcony	1	A	9
+510	Orchestra	6	A	5
+511	Main Floor	2	A	11
+512	Main Floor	2	A	12
+513	Mezzanine	2	A	4
+514	Mezzanine	2	A	5
+515	Mezzanine	2	A	6
+516	Floor	7	A	1
+517	Balcony	3	A	1
+520	Balcony	1	A	4
+521	Balcony	1	A	5
+525	Balcony	1	A	10
+526	Balcony	1	B	1
+527	Balcony	1	B	2
+528	Balcony	1	B	3
+529	Balcon	5	A	8
+530	Balcon	5	A	9
+531	Balcon	5	A	10
+532	Orchestra	3	A	1
+533	Orchestra	3	A	2
+534	Orchestra	1	B	5
+535	Orchestra	1	B	7
+536	Orchestra	1	B	9
+537	Gallery	8	A	10
+538	Gallery	8	A	11
+539	Gallery	8	A	12
+548	Orchestra	6	A	1
+549	Orchestra	6	A	2
+550	Orchestra	6	A	3
+551	Orchestra	6	A	4
+555	Balcony	3	A	2
+556	Balcony	3	A	3
+557	Balcony	3	A	4
+558	Main Floor	4	A	3
+559	Main Floor	4	A	4
+560	Main Floor	4	A	5
+561	Main Floor	4	A	6
+565	Balcony	3	A	4
+566	Orchestra	3	A	5
+567	Orchestra	3	A	6
+568	Orchestra	3	A	7
+569	Main Floor	4	A	6
+570	Main Floor	4	A	7
+571	Orchestra	6	A	5
+572	Orchestra	6	A	6
+573	Orchestra	6	A	7
+574	Orchestra	6	A	8
+577	Balcony	1	A	5
+578	Balcony	1	A	6
+579	Balcony	1	A	7
+580	Balcony	1	A	8
+581	Balcony	3	A	8
+583	Floor	7	A	4
+584	Floor	7	A	5
+586	Upper Bowl	7	A	3
+587	Upper Bowl	7	A	4
+588	Upper Bowl	7	A	5
+589	Balcony	1	A	3
+590	Balcony	1	A	4
+591	Orchestra	1	A	5
+592	Main Floor	4	A	8
+593	Main Floor	4	A	9
+594	Main Floor	4	A	10
+595	Parterre	5	A	6
+596	Parterre	5	A	7
+597	Parterre	5	A	8
+598	Balcony	3	A	1
+599	Balcony	3	A	2
+600	Balcony	3	A	3
+601	Parterre	5	A	1
+602	Parterre	5	A	2
+603	Parterre	5	A	3
+604	Orchestra	3	A	1
+605	Orchestra	3	A	2
+606	Orchestra	3	A	3
+607	Mezzanine	2	A	1
+608	Mezzanine	2	A	2
+609	Mezzanine	2	A	3
+610	Main Floor	2	A	3
+611	Main Floor	2	A	4
+612	Upper Bowl	7	A	3
+613	Upper Bowl	7	A	4
+614	Upper Bowl	7	A	5
+617	Balcony	3	A	4
+618	Balcony	3	A	5
+619	Balcony	3	A	6
+623	Balcony	6	A	1
+624	Balcony	6	A	2
+625	Main Floor	2	A	4
+626	Main Floor	2	A	5
+629	Balcony	6	A	1
+630	Balcony	6	A	2
+631	Parterre	5	A	3
+632	Main Floor	2	A	5
+633	Main Floor	2	A	6
+634	Main Floor	2	A	7
+635	Orchestra	6	A	1
+636	Orchestra	6	A	2
+637	Main Floor	8	A	1
+638	Floor	7	A	6
+639	Balcony	3	A	3
+640	Balcony	3	A	4
+641	Balcony	1	A	3
+642	Balcony	1	A	4
+643	Balcony	1	A	5
+644	Mezzanine	2	A	3
+645	Mezzanine	2	A	4
+646	Mezzanine	2	A	5
+647	Mezzanine	2	A	6
+648	Balcony	1	A	5
+649	Balcony	1	A	6
+650	Balcony	1	A	7
+651	Balcony	1	A	8
+656	Balcon	5	A	4
+657	Balcon	5	A	5
+658	Balcony	3	A	1
+659	Balcony	3	A	2
+660	Balcon	5	A	2
+661	Orchestra	3	A	7
+662	Orchestra	3	A	8
+663	Orchestra	3	A	9
+664	Orchestra	3	A	10
+665	Orchestra	1	B	11
+666	Orchestra	1	C	1
+667	Orchestra	1	C	2
+668	Orchestra	1	C	3
+669	Upper Bowl	7	A	1
+670	Upper Bowl	7	A	2
+671	Upper Bowl	7	A	3
+672	Upper Bowl	7	A	1
+673	Upper Bowl	7	A	2
+674	Upper Bowl	7	A	3
+675	Orchestra	1	A	1
+676	Orchestra	1	A	2
+677	Orchestra	1	A	3
+678	Balcony	1	A	5
+679	Main Floor	4	A	8
+680	Main Floor	4	A	9
+681	Main Floor	4	A	10
+684	Balcon	5	A	6
+685	Balcon	5	A	7
+686	Balcon	5	A	8
+687	Balcon	5	A	9
+688	Balcony	3	A	5
+689	Balcony	3	A	6
+690	Balcony	3	A	7
+691	Main Floor	4	A	11
+692	Main Floor	4	A	12
+693	Balcony	3	A	5
+694	Balcony	3	A	6
+695	Balcony	3	A	7
+696	Main Floor	8	A	1
+697	Main Floor	8	A	2
+698	Main Floor	8	A	3
+701	Balcony	3	A	5
+702	Balcony	3	A	6
+703	Main Floor	8	A	7
+704	Main Floor	8	A	8
+707	Upper Level	4	A	1
+708	Upper Level	4	A	2
+709	Upper Level	4	A	3
+710	Upper Level	4	A	4
+711	Orchestra	3	A	6
+714	Balcony	1	B	4
+715	Balcony	1	B	5
+716	Balcony	1	B	6
+719	Orchestra	6	A	8
+720	Orchestra	6	A	9
+721	Orchestra	6	A	10
+722	Orchestra	1	A	5
+723	Orchestra	1	A	6
+724	Orchestra	1	A	7
+731	Orchestra	6	A	1
+732	Orchestra	6	A	2
+736	Orchestra	3	A	1
+737	Orchestra	3	A	2
+738	Orchestra	3	A	3
+739	Orchestra	3	A	4
+740	Balcony	6	A	1
+741	Orchestra	3	A	4
+742	Orchestra	3	A	5
+743	Orchestra	1	A	5
+744	Orchestra	1	A	6
+745	Balcony	1	A	6
+746	Balcony	1	A	7
+747	Balcony	1	A	8
+748	Balcon	5	A	11
+749	Balcon	5	A	12
+753	Orchestra	1	A	8
+754	Orchestra	1	A	9
+755	Orchestra	1	A	10
+756	Balcony	6	A	8
+757	Balcony	6	A	9
+758	Balcony	1	A	9
+759	Balcony	1	A	10
+760	Balcony	1	B	1
+761	Balcony	3	A	8
+762	Balcony	3	B	1
+763	Balcony	3	B	2
+764	Orchestra	1	A	7
+765	Orchestra	1	A	8
+766	Orchestra	1	A	9
+767	Orchestra	3	A	4
+768	Orchestra	3	A	5
+769	Orchestra	3	A	6
+770	Orchestra	3	A	7
+771	Balcony	1	A	1
+772	Balcony	1	A	2
+773	Upper Bowl	7	A	4
+774	Upper Bowl	7	A	5
+775	Upper Bowl	7	A	6
+776	Balcony	1	A	3
+777	Balcony	1	A	4
+778	Balcony	1	A	5
+779	Balcon	5	A	3
+780	Balcon	5	A	4
+781	Balcon	5	A	5
+782	Balcony	3	A	7
+783	Balcony	3	A	8
+787	Balcony	6	A	3
+788	Balcony	6	A	4
+789	Balcony	6	A	5
+792	Orchestra	3	A	1
+793	Floor	7	A	7
+794	Floor	7	A	8
+795	Floor	7	A	9
+796	Floor	7	A	10
+797	Upper Bowl	7	A	5
+798	Upper Bowl	7	A	6
+799	Balcon	5	A	1
+800	Balcon	5	A	2
+801	Balcony	6	A	10
+802	Balcony	6	A	11
+803	Balcony	6	A	12
+804	Main Floor	8	A	4
+805	Main Floor	8	A	5
+806	Balcony	3	A	3
+807	Main Floor	4	A	11
+808	Main Floor	4	A	12
+809	Main Floor	4	B	1
+810	Main Floor	4	B	2
+811	Main Floor	4	A	7
+812	Balcony	3	B	3
+813	Balcony	3	B	4
+814	Balcony	3	B	5
+815	Orchestra	3	A	8
+816	Orchestra	3	A	9
+817	Orchestra	3	A	10
+818	Orchestra	3	B	1
+822	Main Floor	4	A	1
+823	Main Floor	4	A	2
+824	Main Floor	4	A	3
+827	Floor	7	A	1
+828	Floor	7	A	2
+829	Floor	7	A	3

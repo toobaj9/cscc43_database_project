@@ -1,0 +1,20 @@
+1	Concerts	Pop
+2	Concerts	Rock
+3	Arts, Theatre & Comedy	Musical
+4	Arts, Theatre & Comedy	Comedy
+5	Concerts	Rock
+6	Concerts	Classical
+7	Sports	Basketball
+8	Sports	Hockey
+9	Concerts	Pop
+10	Arts, Theatre & Comedy	Comedy
+11	Concerts	Rock
+12	Concerts	Classical
+13	Arts, Theatre & Comedy	Musical
+14	Sports	Basketball
+15	Concerts	Pop
+16	Concerts	Rock
+17	Arts, Theatre & Comedy	Classical
+18	Arts, Theatre & Comedy	Comedy
+19	Sports	Hockey
+20	Concerts	Rock

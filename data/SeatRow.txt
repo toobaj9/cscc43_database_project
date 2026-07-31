@@ -1,0 +1,93 @@
+1	Orchestra	A
+1	Orchestra	B
+1	Orchestra	C
+1	Orchestra	D
+1	Orchestra	E
+1	Balcony	A
+1	Balcony	B
+1	Balcony	C
+1	Balcony	D
+2	Main Floor	A
+2	Main Floor	B
+2	Main Floor	C
+2	Main Floor	D
+2	Main Floor	E
+2	Main Floor	F
+2	Mezzanine	A
+2	Mezzanine	B
+2	Mezzanine	C
+2	Mezzanine	D
+3	Orchestra	A
+3	Orchestra	B
+3	Orchestra	C
+3	Orchestra	D
+3	Balcony	A
+3	Balcony	B
+3	Balcony	C
+4	Main Floor	A
+4	Main Floor	B
+4	Main Floor	C
+4	Main Floor	D
+4	Main Floor	E
+4	Main Floor	F
+4	Upper Level	A
+4	Upper Level	B
+4	Upper Level	C
+4	Upper Level	D
+4	Upper Level	E
+5	Parterre	A
+5	Parterre	B
+5	Parterre	C
+5	Parterre	D
+5	Parterre	E
+5	Parterre	F
+5	Parterre	G
+5	Balcon	A
+5	Balcon	B
+5	Balcon	C
+5	Balcon	D
+5	Balcon	E
+6	Orchestra	A
+6	Orchestra	B
+6	Orchestra	C
+6	Orchestra	D
+6	Orchestra	E
+6	Orchestra	F
+6	Orchestra	G
+6	Orchestra	H
+6	Balcony	A
+6	Balcony	B
+6	Balcony	C
+6	Balcony	D
+6	Balcony	E
+6	Balcony	F
+7	Floor	A
+7	Floor	B
+7	Floor	C
+7	Floor	D
+7	Floor	E
+7	Floor	F
+7	Floor	G
+7	Floor	H
+7	Floor	I
+7	Floor	J
+7	Upper Bowl	A
+7	Upper Bowl	B
+7	Upper Bowl	C
+7	Upper Bowl	D
+7	Upper Bowl	E
+7	Upper Bowl	F
+7	Upper Bowl	G
+7	Upper Bowl	H
+8	Main Floor	A
+8	Main Floor	B
+8	Main Floor	C
+8	Main Floor	D
+8	Main Floor	E
+8	Main Floor	F
+8	Main Floor	G
+8	Gallery	A
+8	Gallery	B
+8	Gallery	C
+8	Gallery	D
+8	Gallery	E
