@@ -7,182 +7,174 @@ SET FOREIGN_KEY_CHECKS = 0;
 -- ===========================
 
 LOAD DATA LOCAL INFILE 'data/User.txt'
-INTO TABLE User
+INTO TABLE users
 FIELDS TERMINATED BY '\t'
 LINES TERMINATED BY '\n'
-(email, name, address, dateOfBirth);
+(email, name, dob, address);
 
 LOAD DATA LOCAL INFILE 'data/Customer.txt'
-INTO TABLE Customer
+INTO TABLE customer
 FIELDS TERMINATED BY '\t'
 LINES TERMINATED BY '\n'
 (email);
 
 LOAD DATA LOCAL INFILE 'data/Organizer.txt'
-INTO TABLE Organizer
+INTO TABLE organizer
 FIELDS TERMINATED BY '\t'
 LINES TERMINATED BY '\n'
 (email);
 
 LOAD DATA LOCAL INFILE 'data/PaymentInformation.txt'
-INTO TABLE PaymentInformation
+INTO TABLE paymentInformation
 FIELDS TERMINATED BY '\t'
 LINES TERMINATED BY '\n'
-(cardNum, cardholderName, expiryDate, CVV);
+(card_num, cardholder_name, card_expiry, cvv);
 
 LOAD DATA LOCAL INFILE 'data/Venue.txt'
-INTO TABLE Venue
+INTO TABLE venue
 FIELDS TERMINATED BY '\t'
 LINES TERMINATED BY '\n'
 (
-venueID,
-venueName,
+venue_id,
+venue_name,
 latitude,
 longitude,
-streetAddress,
-postalCode,
+street_address,
+postal_code,
 city,
 country
 );
 
 LOAD DATA LOCAL INFILE 'data/Section.txt'
-INTO TABLE Section
+INTO TABLE section
 FIELDS TERMINATED BY '\t'
 LINES TERMINATED BY '\n'
 (
-venueID,
-sectionName
-);
-
-LOAD DATA LOCAL INFILE 'data/ReservedSection.txt'
-INTO TABLE ReservedSection
-FIELDS TERMINATED BY '\t'
-LINES TERMINATED BY '\n'
-(
-venueID,
-sectionName
+venue_id,
+section_name,
+section_type
 );
 
 LOAD DATA LOCAL INFILE 'data/GeneralAdmissionSection.txt'
-INTO TABLE GeneralAdmissionSection
+INTO TABLE generalAdmissionSection
 FIELDS TERMINATED BY '\t'
 LINES TERMINATED BY '\n'
 (
-venueID,
-sectionName,
+venue_id,
+section_name,
 capacity
 );
 
 LOAD DATA LOCAL INFILE 'data/SeatRow.txt'
-INTO TABLE SeatRow
+INTO TABLE seatRow
 FIELDS TERMINATED BY '\t'
 LINES TERMINATED BY '\n'
 (
-venueID,
-sectionName,
-rowName
+venue_id,
+section_name,
+row_name
 );
 
 LOAD DATA LOCAL INFILE 'data/Seat.txt'
-INTO TABLE Seat
+INTO TABLE seat
 FIELDS TERMINATED BY '\t'
 LINES TERMINATED BY '\n'
 (
-venueID,
-sectionName,
-rowName,
-seatNum
+venue_id,
+section_name,
+row_name,
+seat_num
 );
 
 LOAD DATA LOCAL INFILE 'data/SegGenre.txt'
-INTO TABLE SegGenre
+INTO TABLE segGenre
 FIELDS TERMINATED BY '\t'
 LINES TERMINATED BY '\n'
 (
-segName,
-genreName
+seg_name,
+genre_name
 );
 
 LOAD DATA LOCAL INFILE 'data/Artist.txt'
-INTO TABLE Artist
+INTO TABLE artist
 FIELDS TERMINATED BY '\t'
 LINES TERMINATED BY '\n'
 (
-artistID,
-artistName,
-artistType
+artist_id,
+artist_name,
+artist_type
 );
 
 LOAD DATA LOCAL INFILE 'data/Event.txt'
-INTO TABLE Event
+INTO TABLE events
 FIELDS TERMINATED BY '\t'
 LINES TERMINATED BY '\n'
 (
-eventID,
-organizerEmail,
-eventName,
-resaleCap
+event_id,
+organizer_email,
+event_name,
+resale_cap
 );
 
 LOAD DATA LOCAL INFILE 'data/Performance.txt'
-INTO TABLE Performance
+INTO TABLE performance
 FIELDS TERMINATED BY '\t'
 LINES TERMINATED BY '\n'
 (
-performanceID,
-performanceDate,
-performanceTime,
-status,
-eventID,
-venueID
+performance_id,
+performance_date,
+performance_time,
+performance_status,
+event_id,
+venue_id
 );
 
 LOAD DATA LOCAL INFILE 'data/PriceTier.txt'
-INTO TABLE PriceTier
+INTO TABLE priceTier
 FIELDS TERMINATED BY '\t'
 LINES TERMINATED BY '\n'
 (
-performanceID,
-tierName,
+performance_id,
+tier_name,
 price
 );
 
 LOAD DATA LOCAL INFILE 'data/CustomerOrder.txt'
-INTO TABLE CustomerOrder
+INTO TABLE customerOrder
 FIELDS TERMINATED BY '\t'
 LINES TERMINATED BY '\n'
 (
-orderID,
-orderDate,
-cardNum,
-performanceID,
-customerEmail
+order_id,
+order_date,
+card_num,
+performance_id,
+customer_email
 );
 
 LOAD DATA LOCAL INFILE 'data/Ticket.txt'
-INTO TABLE Ticket
+INTO TABLE ticket
 FIELDS TERMINATED BY '\t'
 LINES TERMINATED BY '\n'
 (
-ticketID,
-faceValue,
-status,
-orderID,
-venueID,
-sectionName
+ticket_id,
+face_value,
+ticket_status,
+order_id,
+venue_id,
+section_name
 );
 
 LOAD DATA LOCAL INFILE 'data/ResaleListing.txt'
-INTO TABLE ResaleListing
+INTO TABLE resaleListing
 FIELDS TERMINATED BY '\t'
 LINES TERMINATED BY '\n'
 (
-listingID,
-listingPrice,
-listedAt,
-status,
-ticketID,
-sellerEmail
+listing_id,
+listing_price,
+listed_at,
+listing_status,
+ticket_id,
+seller_email
 );
 
 -- ===========================
@@ -190,116 +182,117 @@ sellerEmail
 -- ===========================
 
 LOAD DATA LOCAL INFILE 'data/Features.txt'
-INTO TABLE Features
+INTO TABLE features
 FIELDS TERMINATED BY '\t'
 LINES TERMINATED BY '\n'
 (
-eventID,
-artistID,
-billingOrder
+event_id,
+artist_id,
+billing_order
 );
 
 LOAD DATA LOCAL INFILE 'data/BelongsTo.txt'
-INTO TABLE BelongsTo
+INTO TABLE belongsTo
 FIELDS TERMINATED BY '\t'
 LINES TERMINATED BY '\n'
 (
-eventID,
-segName,
-genreName
+event_id,
+seg_name,
+genre_name
 );
 
 LOAD DATA LOCAL INFILE 'data/AssignedToTier.txt'
-INTO TABLE AssignedToTier
+INTO TABLE assignedToTier
 FIELDS TERMINATED BY '\t'
 LINES TERMINATED BY '\n'
 (
-performanceID,
-sectionName,
-tierName
+performance_id,
+venue_id,
+section_name,
+tier_name
 );
 
 LOAD DATA LOCAL INFILE 'data/Blocks.txt'
-INTO TABLE Blocks
+INTO TABLE blocks
 FIELDS TERMINATED BY '\t'
 LINES TERMINATED BY '\n'
 (
-performanceID,
-sectionName,
-rowName,
-seatNum,
-blockedAt,
+performance_id,
+section_name,
+row_name,
+seat_num,
+blocked_at,
 reason
 );
 
 LOAD DATA LOCAL INFILE 'data/ReserveSeat.txt'
-INTO TABLE ReserveSeat
+INTO TABLE reserveSeat
 FIELDS TERMINATED BY '\t'
 LINES TERMINATED BY '\n'
 (
-ticketID,
-venueID,
-sectionName,
-rowName,
-seatNum
+ticket_id,
+section_name,
+venue_id,
+row_name,
+seat_num
 );
 
 LOAD DATA LOCAL INFILE 'data/OwnsTicket.txt'
-INTO TABLE OwnsTicket
+INTO TABLE ownsTicket
 FIELDS TERMINATED BY '\t'
 LINES TERMINATED BY '\n'
 (
-ticketID,
-acquiredAt,
+ticket_id,
+acquired_at,
 email,
-endedAt
+ended_at
 );
 
 LOAD DATA LOCAL INFILE 'data/PurchaseListing.txt'
-INTO TABLE PurchaseListing
+INTO TABLE purchaseListing
 FIELDS TERMINATED BY '\t'
 LINES TERMINATED BY '\n'
 (
-listingID,
-buyerEmail,
-purchasedAt,
-salePrice
+listing_id,
+buyer_email,
+purchased_at,
+sale_price
 );
 
 LOAD DATA LOCAL INFILE 'data/Reviews.txt'
-INTO TABLE Reviews
+INTO TABLE reviews
 FIELDS TERMINATED BY '\t'
 LINES TERMINATED BY '\n'
 (
 email,
-performanceID,
-eventRating,
-venueRating,
+performance_id,
+event_rating,
+venue_rating,
 comment,
-createdAt
+created_at
 );
 
 LOAD DATA LOCAL INFILE 'data/CancelsTicket.txt'
-INTO TABLE CancelsTicket
+INTO TABLE cancelsTicket
 FIELDS TERMINATED BY '\t'
 LINES TERMINATED BY '\n'
 (
-ticketID,
-customerEmail,
-cancelledAt,
-refundAmount,
-reason
+ticket_id,
+customer_email,
+refund_amount,
+reason,
+cancelled_at
 );
 
 LOAD DATA LOCAL INFILE 'data/CancelsPerformance.txt'
-INTO TABLE CancelsPerformance
+INTO TABLE cancelsPerformance
 FIELDS TERMINATED BY '\t'
 LINES TERMINATED BY '\n'
 (
-performanceID,
-organizerEmail,
-cancelledAt,
-reason
+performance_id,
+organizer_email,
+reason,
+cancelled_at
 );
 
 SET FOREIGN_KEY_CHECKS = 1;
