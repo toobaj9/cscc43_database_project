@@ -139,7 +139,7 @@ CREATE TABLE paymentInformation (
 
 CREATE TABLE customerOrder (
   order_id               INT             AUTO_INCREMENT PRIMARY KEY,
-  order_date             DATE            NOT NULL DEFAULT (CURDATE()),
+  order_date             DATETIME        NOT NULL DEFAULT (NOW()),
   card_num               VARCHAR(16)     NOT NULL,
   performance_id         INT             NOT NULL,
   customer_email         VARCHAR(255)    NOT NULL,
