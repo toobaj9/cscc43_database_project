@@ -25,6 +25,7 @@ DROP TABLE IF EXISTS users;
 DROP TABLE IF EXISTS segGenre;
 DROP TABLE IF EXISTS artist;
 DROP TABLE IF EXISTS venue;
+DROP VIEW IF EXISTS seatMap;
 
 CREATE TABLE users (
   email                  VARCHAR(255)    PRIMARY KEY,
@@ -280,3 +281,66 @@ CREATE TABLE cancelsPerformance (
   FOREIGN KEY (performance_id) REFERENCES performance(performance_id),
   FOREIGN KEY (organizer_email) REFERENCES organizer(email)
 );
+
+-- created a view which is useful for queries like q6 and can be reused by q1, and 5 instead of duplicating joins and parts of this query again.
+CREATE VIEW seatMap AS
+  WITH
+  blocked_seats AS (
+    SELECT p.performance_id, s.section_name, s.venue_id, COUNT(b.section_name) AS blocked
+    FROM performance AS p
+    LEFT JOIN section AS s ON s.venue_id = p.venue_id
+    LEFT JOIN blocks AS b ON b.performance_id = p.performance_id AND b.section_name = s.section_name AND b.venue_id = s.venue_id
+    WHERE s.section_type = 'reserved'
+    GROUP BY s.section_name, s.venue_id, performance_id
+  ),
+  total_seats AS (
+    SELECT p.performance_id, s.section_name, s.venue_id, COUNT(seat.section_name) AS total
+    FROM performance AS p
+    LEFT JOIN section AS s ON s.venue_id = p.venue_id
+    LEFT JOIN seat ON seat.venue_id = s.venue_id AND seat.section_name = s.section_name
+    WHERE s.section_type = 'reserved'
+    GROUP BY s.section_name, s.venue_id, p.performance_id
+  ),
+  sold_seats AS (
+    SELECT p.performance_id, s.section_name, s.venue_id, COUNT(o.order_id) AS sold
+    FROM performance AS p
+    LEFT JOIN section AS s ON s.venue_id = p.venue_id
+    LEFT JOIN ticket as t ON t.venue_id = s.venue_id AND t.section_name = s.section_name and t.ticket_status = 'active'
+    LEFT JOIN customerOrder as o on o.order_id = t.order_id AND o.performance_id = p.performance_id
+    WHERE s.section_type = 'reserved'
+    GROUP BY s.section_name, s.venue_id, p.performance_id
+  ),
+  occupied AS (
+    SELECT p.performance_id, s.section_name, s.venue_id, COUNT(o.order_id) AS c_sold
+    FROM performance AS p
+    LEFT JOIN section AS s ON s.venue_id = p.venue_id
+    LEFT JOIN ticket as t ON t.venue_id = s.venue_id AND t.section_name = s.section_name and t.ticket_status = 'active'
+    LEFT JOIN customerOrder as o on o.order_id = t.order_id AND o.performance_id = p.performance_id
+    WHERE s.section_type = 'general'
+    GROUP BY s.section_name, s.venue_id, p.performance_id
+  ),
+  total_capacity AS (
+    SELECT p.performance_id, s.section_name, s.venue_id, capacity AS c_total
+    FROM performance AS p
+    LEFT JOIN section AS s ON s.venue_id = p.venue_id
+    LEFT JOIN generalAdmissionSection AS gas ON gas.venue_id = s.venue_id AND gas.section_name = s.section_name
+    WHERE s.section_type = 'general'
+    GROUP BY s.section_name, s.venue_id, p.performance_id
+  )
+  SELECT b.performance_id, s.section_name, p.tier_name, price, sold, blocked, (total - sold - blocked) as available, s.section_type
+  FROM blocked_seats as b
+  JOIN sold_seats as ss ON ss.section_name = b.section_name AND ss.venue_id = b.venue_id AND ss.performance_id = b.performance_id
+  JOIN total_seats as t ON t.section_name = ss.section_name AND t.venue_id = ss.venue_id
+  AND t.performance_id = ss.performance_id
+  JOIN section as s ON s.section_name = t.section_name AND t.venue_id = s.venue_id
+  JOIN priceTier as p ON p.performance_id = t.performance_id
+  JOIN assignedToTier as a ON a.performance_id = p.performance_id and a.tier_name = p.tier_name and a.venue_id = s.venue_id and a.section_name = s.section_name
+  Where s.section_type = 'reserved'
+  UNION
+  SELECT oc.performance_id, s.section_name, p.tier_name, price, c_sold, 0 as blocked, (c_total - c_sold) as available, s.section_type
+  FROM occupied as oc
+  JOIN total_capacity as t ON t.section_name = oc.section_name AND t.venue_id = oc.venue_id AND t.performance_id = oc.performance_id
+  JOIN section as s ON s.section_name = t.section_name AND t.venue_id = s.venue_id
+  JOIN priceTier as p ON p.performance_id = oc.performance_id
+  JOIN assignedToTier as a ON a.performance_id = p.performance_id and a.tier_name = p.tier_name and a.venue_id = s.venue_id and a.section_name = s.section_name
+  Where s.section_type = 'general';
