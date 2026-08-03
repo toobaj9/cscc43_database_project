@@ -60,10 +60,33 @@ public class UserInterface {
 
             switch (choice) {
                 case 1:
-                    UserOperations.createUser();
+                    System.out.print("Email: ");
+                    String email = scanner.nextLine();
+
+                    System.out.print("Name: ");
+                    String name = scanner.nextLine();
+
+                    System.out.print("Address: ");
+                    String address = scanner.nextLine();
+
+                    System.out.print("Date of Birth (YYYY-MM-DD): ");
+                    String dob = scanner.nextLine();
+
+                    System.out.print("Type (customer/organizer): ");
+                    String type = scanner.nextLine().trim().toLowerCase();
+
+                    UserOperations.createUser(
+                        email,
+                        name,
+                        address,
+                        dob,
+                        type
+                    );
                     break;
                 case 2:
-                    UserOperations.deleteUser();
+                    System.out.print("Enter the email of the user to delete: ");
+                    String deleteEmail = scanner.nextLine().trim();
+                    UserOperations.deleteUser(deleteEmail);
                     break;
                 case 3:
                     back = true;
@@ -84,35 +107,140 @@ public class UserInterface {
             System.out.println("3. Define Price Tier");
             System.out.println("4. Assign Sections to Tier");
             System.out.println("5. Update Tier Price");
-            System.out.println("6. Block seat");
-            System.out.println("7. Unblock seat");
-            System.out.println("8. Back to Main Menu");
+            System.out.println("6. Block Seat");
+            System.out.println("7. Unblock Seat");
+            System.out.println("8. Cancel Performance");
+            System.out.println("9. Back to Main Menu");
 
             int choice = readInt("Please select an option: ");
 
             switch (choice) {
                 case 1:
-                    OrganizerOperations.createEvent();
+                    System.out.print("Organizer email: ");
+                    String organizerEmail = scanner.nextLine().trim();
+
+                    System.out.print("Event name: ");
+                    String eventName = scanner.nextLine().trim();
+
+                    System.out.print("Resale cap (e.g. 1.20): ");
+                    double resaleCap = Double.parseDouble(scanner.nextLine());
+
+                    OrganizerOperations.createEvent(organizerEmail, eventName, resaleCap);
                     break;
                 case 2:
-                    OrganizerOperations.addPerformance();
+                    System.out.print("Event ID: ");
+                    int eventId = Integer.parseInt(scanner.nextLine());
+
+                    System.out.print("Venue ID: ");
+                    int venueId = Integer.parseInt(scanner.nextLine());
+
+                    System.out.print("Performance Date (YYYY-MM-DD): ");
+                    String date = scanner.nextLine();
+
+                    System.out.print("Performance Time (HH:MM:SS): ");
+                    String time = scanner.nextLine();
+
+                    OrganizerOperations.addPerformance(eventId, venueId, date, time);
                     break;
                 case 3:
-                    OrganizerOperations.definePriceTier();
+                    System.out.print("Performance ID: ");
+                    int performanceId = Integer.parseInt(scanner.nextLine());
+
+                    System.out.print("Tier Name: ");
+                    String tierName = scanner.nextLine();
+
+                    System.out.print("Price (>= 0): ");
+                    Double price = Double.parseDouble(scanner.nextLine());
+
+                    OrganizerOperations.definePriceTier(performanceId, tierName, price);
                     break;
                 case 4:
-                    OrganizerOperations.assignSectionsToTier();
+                    System.out.print("Performance ID: ");
+                    int assignPerformanceId = Integer.parseInt(scanner.nextLine());
+
+                    System.out.print("Venue ID: ");
+                    int assignVenueId = Integer.parseInt(scanner.nextLine());
+
+                    System.out.print("Section name: ");
+                    String sectionName = scanner.nextLine().trim();
+
+                    System.out.print("Tier name: ");
+                    String assignTierName = scanner.nextLine().trim();
+
+                    OrganizerOperations.assignSectionsToTier(assignPerformanceId, assignVenueId,sectionName, assignTierName);
                     break;
                 case 5:
-                    OrganizerOperations.updateTierPrice();
+                    System.out.print("Performance ID: ");
+                    int updatePerformanceId = Integer.parseInt(scanner.nextLine());
+
+                    System.out.print("Tier name: ");
+                    String updateTierName = scanner.nextLine().trim();
+
+                    System.out.print("New price: ");
+                    double newPrice = Double.parseDouble(scanner.nextLine());
+
+                    OrganizerOperations.updateTierPrice(updatePerformanceId, updateTierName, newPrice);
                     break;
                 case 6:
-                    OrganizerOperations.blockSeat();
+                    System.out.print("Organizer email: ");
+                    String blockOrganizerEmail = scanner.nextLine().trim();
+
+                    System.out.print("Performance ID: ");
+                    int blockPerformanceId = Integer.parseInt(scanner.nextLine());
+
+                    System.out.print("Venue ID: ");
+                    int blockVenueId = Integer.parseInt(scanner.nextLine());
+
+                    System.out.print("Section name: ");
+                    String blockSectionName = scanner.nextLine().trim();
+
+                    System.out.print("Row name: ");
+                    String blockRowName = scanner.nextLine().trim();
+
+                    System.out.print("Seat number: ");
+                    int blockSeatNum = Integer.parseInt(scanner.nextLine());
+
+                    System.out.print("Reason: ");
+                    String blockReason = scanner.nextLine().trim();
+
+                    OrganizerOperations.blockSeat(blockOrganizerEmail, blockPerformanceId, blockVenueId,
+                        blockSectionName, blockRowName, blockSeatNum, blockReason);
                     break;
                 case 7:
-                    OrganizerOperations.unblockSeat();
+                    System.out.print("Organizer email: ");
+                    String unblockOrganizerEmail = scanner.nextLine().trim();
+
+                    System.out.print("Performance ID: ");
+                    int unblockPerformanceId = Integer.parseInt(scanner.nextLine());
+
+                    System.out.print("Venue ID: ");
+                    int unblockVenueId = Integer.parseInt(scanner.nextLine());
+
+                    System.out.print("Section name: ");
+                    String unblockSectionName = scanner.nextLine().trim();
+
+                    System.out.print("Row name: ");
+                    String unblockRowName = scanner.nextLine().trim();
+
+                    System.out.print("Seat number: ");
+                    int unblockSeatNum = Integer.parseInt(scanner.nextLine());
+
+                    OrganizerOperations.unblockSeat(unblockOrganizerEmail, unblockPerformanceId, unblockVenueId,
+                        unblockSectionName, unblockRowName, unblockSeatNum);
                     break;
                 case 8:
+                    System.out.print("Organizer email: ");
+                    String cancelOrganizerEmail = scanner.nextLine().trim();
+
+                    System.out.print("Performance ID: ");
+                    int cancelPerformanceId = Integer.parseInt(scanner.nextLine());
+
+                    System.out.print("Reason: ");
+                    String cancelReason = scanner.nextLine();
+
+                    OrganizerOperations.cancelPerformance(cancelOrganizerEmail, cancelPerformanceId, cancelReason);
+                    break;
+                case 9:
                     back = true;
                     break;
                 default:
