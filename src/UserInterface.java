@@ -380,22 +380,27 @@ public class UserInterface {
 
             switch (choice) {
                 case 1:
-                    QueryOperations.query1();
+                    // query 1
+                    QueryOperations.searchByDistance();
                     break;
                 case 2:
-                    QueryOperations.query2();
+                    // query 2
+                    QueryOperations.searchByPostalCode();
                     break;
                 case 3:
-                    QueryOperations.query3();
+                    // query 3
+                    QueryOperations.upcomingPerformancesAtAddress();
                     break;
                 case 4:
-                    QueryOperations.query4();
+                    // query 4
+                    QueryOperations.performancesInRange();
                     break;
                 case 5:
-                    QueryOperations.query5();
+                    // query 5
+                    QueryOperations.filtersPerformances();
                     break;
                 case 6:
-                    QueryOperations.query6();
+                    QueryOperations.seatMapSummary();
                     break;
                 case 7:
                     QueryOperations.query7();

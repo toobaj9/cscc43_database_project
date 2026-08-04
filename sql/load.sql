@@ -219,6 +219,7 @@ LINES TERMINATED BY '\n'
 (
 performance_id,
 section_name,
+venue_id,
 row_name,
 seat_num,
 blocked_at,
