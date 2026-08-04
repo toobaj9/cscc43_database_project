@@ -267,25 +267,91 @@ public class UserInterface {
 
             switch (choice) {
                 case 1:
-                    CustomerOperations.purchaseTickets();
+                    System.out.print("Customer email: ");
+                    String customerEmail = scanner.nextLine().trim();
+
+                    System.out.print("Card number: ");
+                    String cardNum = scanner.nextLine().trim();
+
+                    System.out.print("Performance ID: ");
+                    int purchasePerformanceId = Integer.parseInt(scanner.nextLine());
+
+                    System.out.print("Venue ID: ");
+                    int purchaseVenueId = Integer.parseInt(scanner.nextLine());
+
+                    System.out.print("Section name: ");
+                    String purchaseSection = scanner.nextLine().trim();
+
+                    System.out.print("Quantity: ");
+                    int quantity = Integer.parseInt(scanner.nextLine());
+
+                    CustomerOperations.purchaseTickets(customerEmail, cardNum, purchasePerformanceId, purchaseVenueId, purchaseSection, quantity, scanner);
                     break;
                 case 2:
-                    CustomerOperations.cancelTicket();
+                    System.out.print("Customer email: ");
+                    String cancelCustomerEmail = scanner.nextLine().trim();
+
+                    System.out.print("Ticket ID: ");
+                    int cancelTicketId = Integer.parseInt(scanner.nextLine());
+
+                    System.out.print("Cancellation reason: ");
+                    String cancelReason = scanner.nextLine().trim();
+
+                    CustomerOperations.cancelTicket(cancelCustomerEmail, cancelTicketId, cancelReason);
                     break;
                 case 3:
-                    CustomerOperations.createResaleListing();
+                    System.out.print("Seller email: ");
+                    String sellerEmail = scanner.nextLine().trim();
+
+                    System.out.print("Ticket ID: ");
+                    int listingTicketId = Integer.parseInt(scanner.nextLine());
+
+                    System.out.print("Listing price: ");
+                    double listingPrice = Double.parseDouble(scanner.nextLine());
+
+                    CustomerOperations.createResaleListing(sellerEmail, listingTicketId,listingPrice);
                     break;
                 case 4:
-                    CustomerOperations.withdrawListing();
+                    System.out.print("Seller email: ");
+                    String withdrawSellerEmail = scanner.nextLine().trim();
+
+                    System.out.print("Listing ID: ");
+                    int withdrawListingId = Integer.parseInt(scanner.nextLine());
+
+                    CustomerOperations.withdrawListing(withdrawSellerEmail, withdrawListingId);
                     break;
                 case 5:
-                    CustomerOperations.buyResaleTicket();
+                     System.out.print("Buyer email: ");
+                    String buyerEmail = scanner.nextLine().trim();
+
+                    System.out.print("Listing ID: ");
+                    int listingId = Integer.parseInt(scanner.nextLine());
+
+                    CustomerOperations.buyResaleTicket(buyerEmail,listingId);
                     break;
                 case 6:
-                    CustomerOperations.addReview();
+                    System.out.print("Customer email: ");
+                    String reviewEmail = scanner.nextLine().trim();
+
+                    System.out.print("Performance ID: ");
+                    int reviewPerformanceId = Integer.parseInt(scanner.nextLine());
+
+                    System.out.print("Event rating (1-5): ");
+                    int eventRating = Integer.parseInt(scanner.nextLine());
+
+                    System.out.print("Venue rating (1-5): ");
+                    int venueRating = Integer.parseInt(scanner.nextLine());
+
+                    System.out.print("Comment: ");
+                    String comment = scanner.nextLine().trim();
+
+                    CustomerOperations.addReview(reviewEmail, reviewPerformanceId, eventRating, venueRating, comment);
                     break;
                 case 7:
-                    CustomerOperations.viewOwnershipHistory();
+                    System.out.print("Ticket ID: ");
+                    int historyTicketId = Integer.parseInt(scanner.nextLine());
+
+                    CustomerOperations.viewOwnershipHistory(historyTicketId);
                     break;
                 case 8:
                     back = true;
