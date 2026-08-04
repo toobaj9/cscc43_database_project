@@ -5,10 +5,6 @@ public class QueryOperations {
   private QueryOperations() {
 
   }
-  public static void main(String[] args) {
-    performancesInRange();
-  }
-
   // query 1
   public static void searchByDistance() {
     try (Connection conn = Database.connect()) {

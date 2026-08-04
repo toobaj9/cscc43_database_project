@@ -37,11 +37,13 @@ CREATE TABLE users (
 CREATE TABLE customer (
   email                  VARCHAR(255)    PRIMARY KEY,
   FOREIGN KEY (email) REFERENCES users(email)
+  ON DELETE CASCADE
 );
 
 CREATE TABLE organizer (
   email                  VARCHAR(255)    PRIMARY KEY,
   FOREIGN KEY (email) REFERENCES users(email)
+  ON DELETE CASCADE
 );
 
 CREATE TABLE events (
@@ -85,7 +87,9 @@ CREATE TABLE performance (
   venue_id               INT             NOT NULL,
   FOREIGN KEY (event_id) REFERENCES events(event_id),
   FOREIGN KEY (venue_id) REFERENCES venue(venue_id),
-  CHECK (performance_status = 'scheduled' or performance_status = 'cancelled' or performance_status = 'completed')
+  CHECK (performance_status = 'scheduled' or performance_status = 'cancelled' or performance_status = 'completed'),
+  UNIQUE (venue_id, performance_date, performance_time),
+  UNIQUE (event_id, performance_date, performance_time)
 );
 
 CREATE TABLE priceTier (

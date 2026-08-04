@@ -1,2 +1,11 @@
 *.class
 *.jar
+.env
+
+bin/
+*.class
+
+.vscode/
+.idea/
+
+.DS_Store
