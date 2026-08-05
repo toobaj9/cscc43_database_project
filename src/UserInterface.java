@@ -468,10 +468,10 @@ public class UserInterface {
                     ReportOperations.report6();
                     break;
                 case 7:
-                    ReportOperations.report7();
+                    ReportOperations.report7(scanner);
                     break;
                 case 8:
-                    ReportOperations.report8();
+                    ReportOperations.report8(scanner);
                     break;
                 case 9:
                     ReportOperations.report9();
