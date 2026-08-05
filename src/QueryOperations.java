@@ -396,4 +396,8 @@ public class QueryOperations {
         System.err.println("Error occurred while executing filtersPerformances query: " + e.getMessage());
     }
   }
+
+  public static void query7() {
+    
+  }
 }

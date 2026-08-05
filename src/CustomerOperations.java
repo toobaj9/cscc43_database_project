@@ -8,6 +8,48 @@ public final class CustomerOperations {
     private CustomerOperations() {
     }
 
+    public static void addPaymentInformation(String cardNum, String cardholderName, String expirationDate, String cvv) {
+        if (cardNum.isBlank() || cardholderName.isBlank() || expirationDate.isBlank() || cvv.isBlank()) {
+            System.err.println("All payment information fields are required.");
+            return;
+        }
+
+        if (!cardNum.matches("\\d{16}")) {
+            System.err.println("Card number must be 16 digits.");
+            return;
+        }
+
+        if (!expirationDate.matches("\\d{2}/\\d{2}")) {
+            System.err.println("Expiration date must be in MM/YY format.");
+            return;
+        }
+
+        String sql = """
+            INSERT INTO paymentInformation
+            (card_num, cardholder_name, card_expiry, cvv)
+            VALUES (?, ?, ?, ?)
+            """;
+
+        String[] expiryParts = expirationDate.split("/");
+        String expiryDateFormatted = "20" + expiryParts[1] + "-" + expiryParts[0] + "-01";
+
+        try (Connection connection = Database.connect();
+             PreparedStatement statement = connection.prepareStatement(sql)) {
+            statement.setString(1, cardNum);
+            statement.setString(2, cardholderName);
+            statement.setString(3, expiryDateFormatted);
+            statement.setString(4, cvv);
+            statement.executeUpdate();
+
+            System.out.println("Payment information added successfully.");
+
+        } catch (SQLException exception) {
+            System.err.println(
+                    "Failed to add payment information: " + exception.getMessage()
+            );
+        }
+    }
+
     public static void purchaseTickets(String customerEmail, String cardNum, int performanceId, int venueId,
         String sectionName, int quantity, Scanner scanner) {
         if (quantity <= 0) {
