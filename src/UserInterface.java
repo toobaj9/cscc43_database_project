@@ -419,7 +419,7 @@ public class UserInterface {
                     QueryOperations.seatMapSummary();
                     break;
                 case 7:
-                    QueryOperations.query7();
+                    QueryOperations.bestAvailableSeats(scanner);
                     break;
                 case 8:
                     back = true;

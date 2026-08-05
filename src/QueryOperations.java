@@ -397,7 +397,145 @@ public class QueryOperations {
     }
   }
 
-  public static void query7() {
-    
+  public static void bestAvailableSeats(Scanner scanner) {
+    System.out.print("Performance ID: ");
+    int performanceId = Integer.parseInt(scanner.nextLine());
+
+    System.out.print("Number of consecutive tickets: ");
+    int quantity = Integer.parseInt(scanner.nextLine());
+  
+    if (quantity <= 0) {
+      System.err.println("Number of tickets must be greater than 0.");
+      return;
+    }
+
+    System.out.print("Maximum total budget (Press Enter for no budget): ");
+    String budgetInput = scanner.nextLine().trim();
+    Double budget = budgetInput.isBlank()
+            ? null
+            : Double.parseDouble(budgetInput);
+
+    String sql = """
+        WITH available_seats AS (
+            SELECT
+                s.venue_id,
+                s.section_name,
+                s.row_name,
+                s.seat_num,
+                pt.price
+            FROM performance p
+            JOIN section sec
+              ON sec.venue_id = p.venue_id
+             AND sec.section_type = 'reserved'
+            JOIN seat s
+              ON s.venue_id = sec.venue_id
+             AND s.section_name = sec.section_name
+            JOIN assignedToTier att
+              ON att.performance_id = p.performance_id
+             AND att.venue_id = s.venue_id
+             AND att.section_name = s.section_name
+            JOIN priceTier pt
+              ON pt.performance_id = att.performance_id
+             AND pt.tier_name = att.tier_name
+            WHERE p.performance_id = ?
+              AND p.performance_status = 'scheduled'
+
+              AND NOT EXISTS (
+                  SELECT 1
+                  FROM blocks b
+                  WHERE b.performance_id = p.performance_id
+                    AND b.venue_id = s.venue_id
+                    AND b.section_name = s.section_name
+                    AND b.row_name = s.row_name
+                    AND b.seat_num = s.seat_num
+              )
+
+              AND NOT EXISTS (
+                  SELECT 1
+                  FROM reserveSeat rs
+                  JOIN ticket t
+                    ON t.ticket_id = rs.ticket_id
+                  JOIN customerOrder co
+                    ON co.order_id = t.order_id
+                  WHERE co.performance_id = p.performance_id
+                    AND t.ticket_status = 'active'
+                    AND rs.venue_id = s.venue_id
+                    AND rs.section_name = s.section_name
+                    AND rs.row_name = s.row_name
+                    AND rs.seat_num = s.seat_num
+              )
+        )
+        SELECT
+            first_seat.section_name,
+            first_seat.row_name,
+            first_seat.seat_num AS first_seat,
+            first_seat.seat_num + ? - 1 AS last_seat,
+            COUNT(second_seat.seat_num) AS ticket_count,
+            SUM(second_seat.price) AS total_price
+        FROM available_seats first_seat
+        JOIN available_seats second_seat
+          ON second_seat.venue_id = first_seat.venue_id
+         AND second_seat.section_name = first_seat.section_name
+         AND second_seat.row_name = first_seat.row_name
+         AND second_seat.seat_num BETWEEN first_seat.seat_num
+                                      AND first_seat.seat_num + ? - 1
+        GROUP BY
+            first_seat.venue_id,
+            first_seat.section_name,
+            first_seat.row_name,
+            first_seat.seat_num
+        HAVING COUNT(second_seat.seat_num) = ?
+           AND MAX(second_seat.seat_num)
+               - MIN(second_seat.seat_num) = ? - 1
+           AND (? IS NULL OR SUM(second_seat.price) <= ?)
+        ORDER BY total_price ASC,
+                 first_seat.section_name,
+                 first_seat.row_name,
+                 first_seat.seat_num
+        LIMIT 1
+        """;
+  
+
+    try (Connection connection = Database.connect();
+         PreparedStatement statement = connection.prepareStatement(sql)) {
+
+        statement.setInt(1, performanceId);
+        statement.setInt(2, quantity);
+        statement.setInt(3, quantity);
+        statement.setInt(4, quantity);
+        statement.setInt(5, quantity);
+
+        if (budget == null) {
+            statement.setNull(6, java.sql.Types.DECIMAL);
+            statement.setNull(7, java.sql.Types.DECIMAL);
+        } else {
+            statement.setDouble(6, budget);
+            statement.setDouble(7, budget);
+        }
+
+        try (ResultSet result = statement.executeQuery()) {
+            if (!result.next()) {
+                System.out.println(
+                        "No suitable consecutive seats were found."
+                );
+                return;
+            }
+
+            System.out.println("Best available seats:");
+            System.out.println(
+                    "Section: " + result.getString("section_name")
+                    + " | Row: " + result.getString("row_name")
+                    + " | Seats: " + result.getInt("first_seat")
+                    + "-" + result.getInt("last_seat")
+                    + " | Total price: $"
+                    + String.format("%.2f",
+                        result.getDouble("total_price"))
+            );
+        }
+    } catch (SQLException exception) {
+      System.err.println("Failed to find best available seats: " + exception.getMessage());
+    } catch (NumberFormatException exception) {
+      System.err.println("Quantity and budget must be valid numbers.");
+    }
   }
 }
