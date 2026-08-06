@@ -254,19 +254,35 @@ public class UserInterface {
 
         while (!back) {
             System.out.println("Customer Operations Menu:");
-            System.out.println("1. Purchase Tickets");
-            System.out.println("2. Cancel Ticket");
-            System.out.println("3. Create Resale Listing");
-            System.out.println("4. Withdraw Listing");
-            System.out.println("5. Buy Resale Ticket");
-            System.out.println("6. Add Review");
-            System.out.println("7. View Ownership History");
-            System.out.println("8. Back to Main Menu");
+            System.out.println("1. Add Payment Information");
+            System.out.println("2. Purchase Tickets");
+            System.out.println("3. Cancel Ticket");
+            System.out.println("4. Create Resale Listing");
+            System.out.println("5. Withdraw Listing");
+            System.out.println("6. Buy Resale Ticket");
+            System.out.println("7. Add Review");
+            System.out.println("8. View Ownership History");
+            System.out.println("9. Back to Main Menu");
 
             int choice = readInt("Please select an option: ");
 
             switch (choice) {
                 case 1:
+                    System.out.print("Card number: ");
+                    String cardNumber = scanner.nextLine().trim();
+
+                    System.out.print("Cardholder name: ");
+                    String cardholderName = scanner.nextLine().trim();
+
+                    System.out.print("Expiration date (MM/YY): ");
+                    String expirationDate = scanner.nextLine().trim();
+
+                    System.out.print("CVV: ");
+                    String cvv = scanner.nextLine().trim();
+
+                    CustomerOperations.addPaymentInformation(cardNumber, cardholderName, expirationDate, cvv);
+                    break;
+                case 2:
                     System.out.print("Customer email: ");
                     String customerEmail = scanner.nextLine().trim();
 
@@ -287,7 +303,7 @@ public class UserInterface {
 
                     CustomerOperations.purchaseTickets(customerEmail, cardNum, purchasePerformanceId, purchaseVenueId, purchaseSection, quantity, scanner);
                     break;
-                case 2:
+                case 3:
                     System.out.print("Customer email: ");
                     String cancelCustomerEmail = scanner.nextLine().trim();
 
@@ -299,7 +315,7 @@ public class UserInterface {
 
                     CustomerOperations.cancelTicket(cancelCustomerEmail, cancelTicketId, cancelReason);
                     break;
-                case 3:
+                case 4:
                     System.out.print("Seller email: ");
                     String sellerEmail = scanner.nextLine().trim();
 
@@ -311,7 +327,7 @@ public class UserInterface {
 
                     CustomerOperations.createResaleListing(sellerEmail, listingTicketId,listingPrice);
                     break;
-                case 4:
+                case 5:
                     System.out.print("Seller email: ");
                     String withdrawSellerEmail = scanner.nextLine().trim();
 
@@ -320,7 +336,7 @@ public class UserInterface {
 
                     CustomerOperations.withdrawListing(withdrawSellerEmail, withdrawListingId);
                     break;
-                case 5:
+                case 6:
                      System.out.print("Buyer email: ");
                     String buyerEmail = scanner.nextLine().trim();
 
@@ -329,7 +345,7 @@ public class UserInterface {
 
                     CustomerOperations.buyResaleTicket(buyerEmail,listingId);
                     break;
-                case 6:
+                case 7:
                     System.out.print("Customer email: ");
                     String reviewEmail = scanner.nextLine().trim();
 
@@ -347,13 +363,13 @@ public class UserInterface {
 
                     CustomerOperations.addReview(reviewEmail, reviewPerformanceId, eventRating, venueRating, comment);
                     break;
-                case 7:
+                case 8:
                     System.out.print("Ticket ID: ");
                     int historyTicketId = Integer.parseInt(scanner.nextLine());
 
                     CustomerOperations.viewOwnershipHistory(historyTicketId);
                     break;
-                case 8:
+                case 9:
                     back = true;
                     break;
                 default:
@@ -403,7 +419,7 @@ public class UserInterface {
                     QueryOperations.seatMapSummary();
                     break;
                 case 7:
-                    QueryOperations.query7();
+                    QueryOperations.bestAvailableSeats(scanner);
                     break;
                 case 8:
                     back = true;
@@ -422,12 +438,12 @@ public class UserInterface {
             System.out.println("1. Report 1: Total Tickets Sold & Gross Revenue");
             System.out.println("2. Report 2: Total Events & Performances");
             System.out.println("3. Report 3: Rank Organizers by Gross Revenue");
-            System.out.println("4. Report 4");
+            System.out.println("4. Report 4: Potential Ticket Scalpers");
             System.out.println("5. Report 5: Rank Customers by Orders");
             System.out.println("6. Report 6: Cancelled Tickets & Performances Report");
-            System.out.println("7. Report 7");
-            System.out.println("8. Report 8");
-            System.out.println("9. Report 9");
+            System.out.println("7. Report 7: Sell-Through Reports");
+            System.out.println("8. Report 8: Resale Reports");
+            System.out.println("9. Report 9: Popular Review Phrases");
             System.out.println("10. Back to Main Menu");
 
             int choice = readInt("Please select an option: ");
@@ -452,10 +468,10 @@ public class UserInterface {
                     ReportOperations.report6(scanner);
                     break;
                 case 7:
-                    ReportOperations.report7();
+                    ReportOperations.report7(scanner);
                     break;
                 case 8:
-                    ReportOperations.report8();
+                    ReportOperations.report8(scanner);
                     break;
                 case 9:
                     ReportOperations.report9();
