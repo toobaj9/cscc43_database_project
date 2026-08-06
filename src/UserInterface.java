@@ -43,7 +43,7 @@ public class UserInterface {
         System.out.println("1. User Management");
         System.out.println("2. Organizer Operations");
         System.out.println("3. Customer Operations");
-        System.out.println("4. Searchs & Queries");
+        System.out.println("4. Searches & Queries");
         System.out.println("5. Reports");
         System.out.println("6. Exit");
     }
