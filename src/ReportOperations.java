@@ -204,7 +204,7 @@ public final class ReportOperations {
         System.out.println();
       }
     } catch (SQLException e) {
-      System.err.println("Error occurred while executing totalEventsAndPerformances report: " + e.getMessage());
+      System.err.println("Error occurred while executing report 2: " + e.getMessage());
     }
   }
 
@@ -292,6 +292,7 @@ public final class ReportOperations {
                 rs.getInt("rank")
               );
             }
+            break;
           case "4":
             back = true;
             break;
@@ -301,7 +302,7 @@ public final class ReportOperations {
         System.out.println();
       }
     } catch (SQLException e) {
-      System.err.println("Error occurred while executing report6 report: " + e.getMessage());
+      System.err.println("Error occurred while executing report3: " + e.getMessage());
     }
   }
 
@@ -393,7 +394,7 @@ public final class ReportOperations {
         System.out.println();
       }
     } catch (SQLException e) {
-        System.err.println("Error occurred while executing report6 report: " + e.getMessage());
+        System.err.println("Error occurred while executing report5: " + e.getMessage());
     }
   }
 
@@ -463,7 +464,7 @@ public final class ReportOperations {
         System.out.println();
       }
     } catch (SQLException e) {
-      System.err.println("Error occurred while executing report6 report: " + e.getMessage());
+      System.err.println("Error occurred while executing report6: " + e.getMessage());
     }
   }
 
