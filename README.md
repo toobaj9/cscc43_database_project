@@ -7,7 +7,9 @@
 ## Initial Commands to run are project:
 * mysql -u root mytix < sql/schema.sql
 * sudo mysql --local-infile=1 mytix < sql/load.sql
+
+## Drop schema if it exists
 * mysql -u root mytix < sql/drop.sql
 
 ## Run Instruction:
-sh run.sh
+* sh run.sh
