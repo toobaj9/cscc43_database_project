@@ -382,14 +382,14 @@ public class UserInterface {
         boolean back = false;
 
         while (!back) {
-            System.out.println("Searchs & Queries Menu:");
-            System.out.println("1. Query 1");
-            System.out.println("2. Query 2");
-            System.out.println("3. Query 3");
-            System.out.println("4. Query 4");
-            System.out.println("5. Query 5");
-            System.out.println("6. Query 6");
-            System.out.println("7. Query 7");
+            System.out.println("Searches & Queries Menu:");
+            System.out.println("1. Query 1: Search by Distance");
+            System.out.println("2. Query 2: Search by Postal Code");
+            System.out.println("3. Query 3: Search by Address");
+            System.out.println("4. Query 4: Search by Date and Ticket Availability");
+            System.out.println("5. Query 5: Search with Filters");
+            System.out.println("6. Query 6: View Seat Map Summary");
+            System.out.println("7. Query 7: Find Best Available Seats");
             System.out.println("8. Back to Main Menu");
 
             int choice = readInt("Please select an option: ");
@@ -435,12 +435,12 @@ public class UserInterface {
 
         while (!back) {
             System.out.println("Reports Menu:");
-            System.out.println("1. Report 1");
-            System.out.println("2. Report 2");
-            System.out.println("3. Report 3");
+            System.out.println("1. Report 1: Total Tickets Sold & Gross Revenue");
+            System.out.println("2. Report 2: Total Events & Performances");
+            System.out.println("3. Report 3: Rank Organizers by Gross Revenue");
             System.out.println("4. Report 4: Potential Ticket Scalpers");
-            System.out.println("5. Report 5");
-            System.out.println("6. Report 6");
+            System.out.println("5. Report 5: Rank Customers by Orders");
+            System.out.println("6. Report 6: Cancelled Tickets & Performances Report");
             System.out.println("7. Report 7: Sell-Through Reports");
             System.out.println("8. Report 8: Resale Reports");
             System.out.println("9. Report 9: Popular Review Phrases");
@@ -450,22 +450,22 @@ public class UserInterface {
 
             switch (choice) {
                 case 1:
-                    ReportOperations.report1();
+                    ReportOperations.report1(scanner);
                     break;
                 case 2:
-                    ReportOperations.report2();
+                    ReportOperations.report2(scanner);
                     break;
                 case 3:
-                    ReportOperations.report3();
+                    ReportOperations.report3(scanner);
                     break;
                 case 4:
                     ReportOperations.report4();
                     break;
                 case 5:
-                    ReportOperations.report5();
+                    ReportOperations.report5(scanner);
                     break;
                 case 6:
-                    ReportOperations.report6();
+                    ReportOperations.report6(scanner);
                     break;
                 case 7:
                     ReportOperations.report7(scanner);
