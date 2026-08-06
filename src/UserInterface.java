@@ -110,7 +110,8 @@ public class UserInterface {
             System.out.println("6. Block Seat");
             System.out.println("7. Unblock Seat");
             System.out.println("8. Cancel Performance");
-            System.out.println("9. Back to Main Menu");
+            System.out.println("9. Organizer Pricing Toolkit");
+            System.out.println("10. Back to Main Menu");
 
             int choice = readInt("Please select an option: ");
 
@@ -241,6 +242,9 @@ public class UserInterface {
                     OrganizerOperations.cancelPerformance(cancelOrganizerEmail, cancelPerformanceId, cancelReason);
                     break;
                 case 9:
+                    OrganizerToolkit.suggestPricing(scanner);
+                    break;
+                case 10:
                     back = true;
                     break;
                 default:
