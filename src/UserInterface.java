@@ -438,12 +438,12 @@ public class UserInterface {
             System.out.println("1. Report 1");
             System.out.println("2. Report 2");
             System.out.println("3. Report 3");
-            System.out.println("4. Report 4");
+            System.out.println("4. Report 4: Potential Ticket Scalpers");
             System.out.println("5. Report 5");
             System.out.println("6. Report 6");
-            System.out.println("7. Report 7");
-            System.out.println("8. Report 8");
-            System.out.println("9. Report 9");
+            System.out.println("7. Report 7: Sell-Through Reports");
+            System.out.println("8. Report 8: Resale Reports");
+            System.out.println("9. Report 9: Popular Review Phrases");
             System.out.println("10. Back to Main Menu");
 
             int choice = readInt("Please select an option: ");
