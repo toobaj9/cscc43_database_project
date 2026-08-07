@@ -1,3 +1,6 @@
+CREATE DATABASE IF NOT EXISTS mytix;
+USE mytix;
+
 DROP TABLE IF EXISTS cancelsPerformance;
 DROP TABLE IF EXISTS cancelsTicket;
 DROP TABLE IF EXISTS reviews;
